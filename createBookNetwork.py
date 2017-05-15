@@ -10,13 +10,13 @@ if __name__ == '__main__':
 	booksDir = sys.argv[1]
 	booksPaths = [os.path.join(booksDir, f) for f in os.listdir(booksDir)]
 
-	g = graph_tool.Graph()
-	g.vertex_properties['count'] = g.new_vertex_property("double")
-	g.vertex_properties['name'] = g.new_vertex_property("string")
-	g.edge_properties['weight'] = g.new_edge_property("double")
-
 	for i, bookPath in enumerate(booksPaths):
-		with codecs.open(booksPaths, 'r', 'utf-8') as bookFile:
+		g = graph_tool.Graph()
+		g.vertex_properties['count'] = g.new_vertex_property("double")
+		g.vertex_properties['name'] = g.new_vertex_property("string")
+		g.edge_properties['weight'] = g.new_edge_property("double")
+		aux = 0
+		with codecs.open(bookPath, 'r', 'utf-8') as bookFile:
 			for line in bookFile:
 				if 'Page |' not in line: # Dont consider page end
 					lineWords = re.compile('\w+').findall(line)
@@ -53,10 +53,14 @@ if __name__ == '__main__':
 							else:
 								g.edge_properties['weight'][myEdge] += 1
 
-	for v in g.vertices():
-		print (g.vertex_properties['name'][v], g.vertex_properties['count'][v])
+							aux+=1
+							if aux%1000 == 0:
+								print(aux)
+		g.save('HP_book{}.gml'.format(i))
+		print('HP_book{}.gml'.format(i))
 
-	g.save('HP_book{}.gml'.format(i))
+	# for v in g.vertices():
+	# 	print (g.vertex_properties['name'][v], g.vertex_properties['count'][v])
 
 
 	

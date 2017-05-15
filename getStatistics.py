@@ -11,7 +11,7 @@ if __name__ == '__main__':
 	lines = []
 	for book in booksPaths:
 		words = []
-		with codecs.open(booksPaths[0], 'r', 'utf-8') as bookFile:
+		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			for line in bookFile:
 				if 'Page |' not in line: # Dont consider page end
 					lineWords = re.compile('\w+').findall(line)
@@ -19,5 +19,6 @@ if __name__ == '__main__':
 					if len(lineWords) > 0:
 						words += lineWords
 
-	uniqueWords, wordsCount = np.unique(words, return_counts=True)
+		uniqueWords, wordsCount = np.unique(words, return_counts=True)
+		print(len(words))
 
