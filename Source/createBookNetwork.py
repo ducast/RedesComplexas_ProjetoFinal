@@ -62,7 +62,7 @@ if __name__ == '__main__':
 							if aux%1000 == 0:
 								print(aux)
 
-		g.save('HP_book{}.gml'.format(k))
+		g.save('HP_book{}.gml'.format(k+3))
 
 	# for v in g.vertices():
 	# 	print (g.vertex_properties['name'][v], g.vertex_properties['count'][v])
