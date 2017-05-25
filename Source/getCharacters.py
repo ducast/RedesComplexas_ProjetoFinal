@@ -7,7 +7,7 @@ import string
 import sys
 
 if __name__ == '__main__':
-	f=open('../Lib/1000commonWords.txt')
+	f=open('../Lib/parsedHPcharacters.txt')
 	words = f.readlines()
 	f.close()
 	words.sort()
@@ -29,7 +29,7 @@ if __name__ == '__main__':
 				w = word.lower()
 				i = bisect.bisect_left(words,w)
 				if i < len(words) and words[i] == w+'\n':
-					pass
+					print '--'
 				else:
 					characters.append(word)
 					print word
