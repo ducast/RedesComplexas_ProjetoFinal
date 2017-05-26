@@ -5,12 +5,15 @@ Katie Bell
 Cuthbert Binns
 Phineas Nigellus Black
 Sirius Black
+Black Mrs
 Amelia Bones
 Susan Bones
 Terry Boot
 Lavender Brown
 Millicent Bulstrode
 Charity Burbage
+Graham Montague
+Montague Mrs
 Frank Bryce
 Alecto Carrow
 Amycus Carrow
@@ -18,18 +21,18 @@ Reginald Cattermole
 Cho Chang
 Penelope Clearwater
 Michael Corner
-Vincent Crabbe, Sr.
+Vincent Crabbe Sr
 Vincent Crabbe
 Colin Creevey
 Dennis Creevey
 Dirk Cresswell
-Bartemius Barty Crouch, Sr.
-Bartemius Barty Crouch, Jr.
+Bartemius Barty Crouch Sr Mr
+Bartemius Barty Crouch Jr
 Dawlish
 Fleur Delacour
 Gabrielle Delacour
 Dedalus Diggle
-Amos Diggory
+Amos Diggory Mr
 Cedric Diggory
 Elphias Doge
 Antonin Dolohov
@@ -37,8 +40,8 @@ Aberforth Dumbledore
 Albus Dumbledore
 Dudley Dursley
 Marjorie Marge Dursley
-Petunia Dursley
-Vernon Dursley
+Petunia Dursley Mrs
+Vernon Dursley Mr
 Marietta Edgecombe
 Arabella Figg
 Argus Filch
@@ -53,9 +56,11 @@ Marvolo Gaunt
 Merope Gaunt
 Morfin Gaunt
 Anthony Goldstein
-Goyle Sr
+Goyle Sr Mr
 Gregory Goyle
 Hermione Granger
+Granger Mr
+Borgin Sr
 Astoria Greengrass
 Gregorovitch
 Fenrir Greyback
@@ -73,17 +78,17 @@ Bellatrix Lestrange
 Rabastan Lestrange
 Rodolphus Lestrange
 Gilderoy Lockhart
-Alice Longbottom
+Alice Longbottom Mrs
 Augusta Longbottom
-Frank Longbottom
+Frank Longbottom Mr
 Neville Longbottom
 Luna Lovegood
-Xenophilius Lovegood
+Xenophilius Lovegood Mr
 Remus Lupin
 Theodore Remus Lupin
 Walden Macnair
 Draco Malfoy
-Lucius Malfoy
+Lucius Malfoy Mr
 Narcissa Malfoy
 Scorpius Malfoy
 Olympe Maxime
@@ -101,9 +106,9 @@ Ignotus Peverell
 Irma Pince
 Sturgis Podmore
 Poppy Pomfrey
-Harry Potter
+Harry Potter Mr
 James Potter
-Lily Potter
+Lily Potter Mrs
 Quirinus Quirrell
 Helena Ravenclaw
 Demelza Robins
@@ -131,15 +136,15 @@ Sybill Trelawney
 Dolores Jane Umbridge
 Emmeline Vance
 Septima Vector
-Lord Voldemort Tom Riddle You-Know-Who He-Who-Must-Not-Be-Named Dark Lord
-Arthur Weasley
+Lord Voldemort Tom Riddle You- Know- He- Who-
+Arthur Weasley Mr
 Bill Weasley
 Charlie Weasley
 Fred Weasley
 George Weasley
 Ginny Weasley
 Hugo Weasley
-Molly Weasley
+Molly Weasley Mrs
 Percy Weasley
 Ron Weasley
 Rose Weasley
@@ -147,14 +152,13 @@ Oliver Wood
 Yaxley
 Aragog
 Bane
-The Bloody Baron
+Bloody Baron
 Buckbeak
 Crookshanks
 Dobby
 Errol
 Fang
-The Fat Friar
-The Fat Lady
+Friar
 Fawkes
 Firenze
 Fluffy
@@ -167,8 +171,8 @@ Moaning Myrtle
 Great Aunt Muriel
 Nagini
 Nearly Headless Nick
-Norbert/Norberta
-Mrs Norris
+Norbert Norberta
+Norris
 Peeves
-Madam Rosmerta
+Rosmerta
 Ronan

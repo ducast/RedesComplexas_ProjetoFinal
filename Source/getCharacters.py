@@ -8,28 +8,60 @@ import sys
 
 if __name__ == '__main__':
 	f=open('../Lib/parsedHPcharacters.txt')
-	words = f.readlines()
+	characters = f.readlines()
 	f.close()
-	words.sort()
-	booksDir = "../Books"
+	characters.sort()
+	f=open('../Lib/charactersMap.txt','w')
+	for c in range(len(characters)):
+		f.write("%d "%c + characters[c])
+		characters[c] = characters[c][:-1].split(" ")
+	f.close()
+	booksDir = "../Books/HarryPotter"
 	booksPaths = [os.path.join(booksDir, f) for f in os.listdir(booksDir)]
-	lines = []
-	for book in booksPaths:
-		uppers = []
+	exceptions = ['Mr','Mrs','Sr','Jr']
+	for book in booksPaths[:1]:
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
+			last_word = False
+			pageCharacters = []
 			for line in bookFile:
-				if 'Page |' not in line: # Dont consider page end
-					lineWords = re.compile('\w+').findall(line)
-					for w in lineWords:
-						if w[0].isupper():
-							uppers.append(w)
-			uniqueUppers, uppersCount = np.unique(uppers, return_counts=True)
-			characters = []
-			for word in uniqueUppers:
-				w = word.lower()
-				i = bisect.bisect_left(words,w)
-				if i < len(words) and words[i] == w+'\n':
-					print '--'
+				if 'Page |' in line: # New page
+					#TODO: add characters to graph
+					pageCharacters = []
 				else:
-					characters.append(word)
-					print word
+					lineWords = re.compile('\w+-*').findall(line)
+					for word in lineWords:
+						if word[0].isupper():
+							count = 0
+							indexes = []
+							if last_word:  # In case of Name conflict, or Mr., Mrs.
+								for char in characters:
+									if word in char and last_word in char:
+										count+=1
+										indexes.append(characters.index(char))
+								if count == 0: # In case they don't match
+									if last_word not in exceptions:
+										pass # TODO: last -> highest
+									for char in characters:
+										if word in char:
+											count+=1
+											indexes.append(characters.index(char))
+							else:
+								for char in characters:
+									if word in char:
+										count+=1
+										indexes.append(characters.index(char))
+							if word in exceptions or count > 1:
+								last_word = word
+								last_indexes = indexes
+								indexes = []
+							else:
+								last = False
+								last_indexes = []
+							if len(indexes) == 1:
+								if indexes[0] not in pageCharacters:
+									pageCharacters.append(indexes[0])
+							elif len(indexes) > 1:
+								pass #TODO: last->highest
+						else:
+							last = False
+							last_indexes = []
