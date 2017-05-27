@@ -6,6 +6,13 @@ import re
 import string
 import sys
 
+def getHighestVertex (graph, vertexes):
+	degrees = []
+	for index in vertexes:
+		v = graph.vertex(index)
+		degrees.append(v.out_degree())
+	return degrees.index(max(degrees))
+
 if __name__ == '__main__':
 	f=open('../Lib/parsedHPcharacters.txt')
 	characters = f.readlines()
@@ -50,7 +57,8 @@ if __name__ == '__main__':
 										indexes.append(characters.index(char))
 								if count == 0: # In case they don't match
 									if last_word not in exceptions:
-										pass # TODO: last -> highest
+										highest = getHighestVertex(last_indexes)
+										pageCharacters.append(highest)
 									for char in characters:
 										if word in char:
 											count+=1
@@ -71,7 +79,8 @@ if __name__ == '__main__':
 								if indexes[0] not in pageCharacters:
 									pageCharacters.append(indexes[0])
 							elif len(indexes) > 1:
-								pass #TODO: last->highest
+								highest = getHighestVertex(last_indexes)
+								pageCharacters.append(highest)
 						else:
 							last = False
 							last_indexes = []
