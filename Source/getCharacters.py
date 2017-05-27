@@ -12,7 +12,11 @@ if __name__ == '__main__':
 	f.close()
 	characters.sort()
 	f=open('../Lib/charactersMap.txt','w')
+	blank_graph = graph_tool.Graph()
+	blank_graph.vertex_properties['name']  = blank_graph.new_vertex_property("string")
 	for c in range(len(characters)):
+		v = blank_graph.add_vertex()
+		blank_graph.vertex_properties['name'] = char
 		f.write("%d "%c + characters[c])
 		characters[c] = characters[c][:-1].split(" ")
 	f.close()
@@ -20,12 +24,18 @@ if __name__ == '__main__':
 	booksPaths = [os.path.join(booksDir, f) for f in os.listdir(booksDir)]
 	exceptions = ['Mr','Mrs','Sr','Jr']
 	for book in booksPaths[:1]:
+		g = Graph(blank_graph)
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			last_word = False
 			pageCharacters = []
 			for line in bookFile:
 				if 'Page |' in line: # New page
-					#TODO: add characters to graph
+					for c1 in pageCharacters:
+						for c2 in pageCharacters:
+							if c1 != c2:
+								v1 = g.vertex(c1)
+								v2 = g.vertex(c2)
+								g.add_edge(v1, v2)
 					pageCharacters = []
 				else:
 					lineWords = re.compile('\w+-*').findall(line)
