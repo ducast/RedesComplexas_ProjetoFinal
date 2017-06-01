@@ -16,6 +16,6 @@ for line in lines:
 			character = character[start:]
 		characters.append(character)
 out = '\n'.join(characters)
-f=open('../Lib/parsedHPcharacters2.txt','w')
+f=open('../Lib/parsedHPcharacters.txt','w')
 f.write(out)
 f.close()

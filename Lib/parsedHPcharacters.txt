@@ -25,8 +25,8 @@ Vincent Crabbe
 Colin Creevey
 Dennis Creevey
 Dirk Cresswell
-Bartemius Barty Crouch, Sr.
-Bartemius Barty Crouch, Jr.
+Bartemius (Barty) Crouch, Sr.
+Bartemius (Barty) Crouch, Jr.
 Roger Davies
 Dawlish
 Fleur Delacour
@@ -96,7 +96,7 @@ Ernie Macmillan
 Minerva McGonagall
 Cormac McLaggen
 Graham Montague
-Alastor Mad-Eye Moody
+Alastor (Mad-Eye) Moody
 Theodore Nott
 Bob Ogden
 Garrick Ollivander
@@ -138,7 +138,7 @@ Nymphadora Tonks
 Ted Tonks
 Travers
 Sybill Trelawney
- Wilky Twycross
+Wilky Twycross
 Dolores Jane Umbridge
 Emmeline Vance
 Romilda Vane
@@ -187,7 +187,7 @@ Nearly Headless Nick
 Norbert/Norberta
 Mrs Norris
 Peeves
-Pigwidgeon Pig
+Pigwidgeon (Pig)
 Madam Rosmerta
 Ronan
 Scabbers

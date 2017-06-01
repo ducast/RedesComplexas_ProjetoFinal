@@ -102,3 +102,4 @@ if __name__ == '__main__':
 							last_indexes = []
 		k = booksPaths.index(book)
 		g.save('../Networks/CharacterNetworks/HP_book{}.gml'.format(k+1))
+

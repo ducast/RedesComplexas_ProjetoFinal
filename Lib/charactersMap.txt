@@ -1,195 +1,195 @@
-0  Wilky Twycross
-1 Aberforth Dumbledore
-2 Alastor Mad-Eye Moody
-3 Albert Runcorn
-4 Albus Dumbledore
-5 Alecto Carrow
-6 Alice Longbottom
-7 Alicia Spinnet
-8 Amelia Bones
-9 Amos Diggory
-10 Amycus Carrow
-11 Andromeda Tonks
-12 Angelina Johnson
-13 Anthony Goldstein
-14 Antioch Peverell
-15 Antonin Dolohov
-16 Arabella Figg
-17 Aragog
-18 Argus Filch
-19 Arthur Weasley
-20 Astoria Greengrass
-21 Augusta Longbottom
-22 Augustus Rookwood
-23 Aurora Sinistra
-24 Bane
-25 Bartemius Barty Crouch, Jr.
-26 Bartemius Barty Crouch, Sr.
-27 Bathilda Bagshot
-28 Beedle the Bard
-29 Bellatrix Lestrange
-30 Bertha Jorkins
-31 Bill Weasley
-32 Blaise Zabini
-33 Bob Ogden
-34 Bogrod
-35 Buckbeak
-36 Cadmus Peverell
-37 Cedric Diggory
-38 Charity Burbage
-39 Charlie Weasley
-40 Cho Chang
-41 Colin Creevey
-42 Cormac McLaggen
-43 Cornelius Fudge
-44 Crookshanks
-45 Cuthbert Binns
-46 Dawlish
-47 Dean Thomas
-48 Dedalus Diggle
-49 Demelza Robins
-50 Dennis Creevey
-51 Dirk Cresswell
-52 Dobby
-53 Dolores Jane Umbridge
-54 Draco Malfoy
-55 Dudley Dursley
-56 Elphias Doge
-57 Emmeline Vance
-58 Ernie Macmillan
-59 Errol
-60 Fang
-61 Fawkes
-62 Fenrir Greyback
-63 Filius Flitwick
-64 Firenze
-65 Fleur Delacour
-66 Florean Fortescue
-67 Fluffy
-68 Frank Bryce
-69 Frank Longbottom
-70 Fred Weasley
-71 Gabrielle Delacour
-72 Garrick Ollivander
-73 Gellert Grindelwald
-74 George Weasley
-75 Gilderoy Lockhart
-76 Ginny Weasley
-77 Goyle Sr
-78 Graham Montague
-79 Grawp
-80 Great Aunt Muriel
-81 Gregorovitch
-82 Gregory Goyle
-83 Griphook
-84 Griselda Marchbanks
-85 Hannah Abbott
-86 Harry Potter
-87 Hedwig
-88 Helena Ravenclaw/The Grey Lady
-89 Hepzibah Smith
-90 Hermione Granger
-91 Hokey
-92 Horace Slughorn
-93 Hugo Weasley
-94 Ignotus Peverell
-95 Igor Karkaroff
-96 Irma Pince
-97 James Potter
-98 Justin Finch-Fletchley
-99 Katie Bell
-100 Kingsley Shacklebolt
-101 Kreacher
-102 Lavender Brown
-103 Lee Jordan
-104 Lily Potter
-105 Lord Voldemort
-106 Lucius Malfoy
-107 Ludo Bagman
-108 Luna Lovegood
-109 Madam Hooch
-110 Madam Malkin
-111 Madam Rosmerta
-112 Mafalda Hopkirk
-113 Magorian
-114 Marcus Flint
-115 Marietta Edgecombe
-116 Marjorie (Marge) Dursley
-117 Marvolo Gaunt
-118 Mary Cattermole
-119 Merope Gaunt
-120 Michael Corner
-121 Millicent Bulstrode
-122 Minerva McGonagall
-123 Moaning Myrtle
-124 Molly Weasley
-125 Morfin Gaunt
-126 Mrs Norris
-127 Mrs. Cole
-128 Mundungus Fletcher
-129 Nagini
-130 Narcissa Malfoy
-131 Nearly Headless Nick
-132 Neville Longbottom
-133 Newt Scamander
-134 Norbert/Norberta
-135 Nymphadora Tonks
-136 Oliver Wood
-137 Olympe Maxime
-138 Padma Patil
-139 Pansy Parkinson
-140 Parvati Patil
-141 Peeves
-142 Penelope Clearwater
-143 Percy Weasley
-144 Peter Pettigrew
-145 Petunia Dursley
-146 Phineas Nigellus Black
-147 Pigwidgeon Pig
-148 Pius Thicknesse
-149 Pomona Sprout
-150 Poppy Pomfrey
-151 Quirinus Quirrell
-152 Rabastan Lestrange
-153 Reginald Cattermole
-154 Remus Lupin
-155 Rita Skeeter
-156 Rodolphus Lestrange
-157 Roger Davies
-158 Romilda Vane
-159 Ron Weasley
-160 Ronan
-161 Rose Weasley
-162 Rubeus Hagrid
-163 Rufus Scrimgeour
-164 Scabbers
-165 Scabior
-166 Scorpius Malfoy
-167 Seamus Finnigan
-168 Septima Vector
-169 Severus Snape
-170 Sir Cadogan
-171 Sirius Black
-172 Stan Shunpike
-173 Sturgis Podmore
-174 Susan Bones
-175 Sybill Trelawney
-176 Ted Tonks
-177 Terry Boot
-178 The Bloody Baron
-179 The Fat Friar
-180 The Fat Lady
-181 Theodore Nott
-182 Theodore Remus Lupin
-183 Tom Marvolo Riddle
-184 Travers
-185 Trevor
-186 Vernon Dursley
-187 Viktor Krum
-188 Vincent Crabbe
-189 Vincent Crabbe, Sr.
-190 Walden Macnair
-191 Wilhelmina Grubbly-Plank
+0 Aberforth Dumbledore
+1 Alastor (Mad-Eye) Moody
+2 Albert Runcorn
+3 Albus Dumbledore
+4 Alecto Carrow
+5 Alice Longbottom
+6 Alicia Spinnet
+7 Amelia Bones
+8 Amos Diggory
+9 Amycus Carrow
+10 Andromeda Tonks
+11 Angelina Johnson
+12 Anthony Goldstein
+13 Antioch Peverell
+14 Antonin Dolohov
+15 Arabella Figg
+16 Aragog
+17 Argus Filch
+18 Arthur Weasley
+19 Astoria Greengrass
+20 Augusta Longbottom
+21 Augustus Rookwood
+22 Aurora Sinistra
+23 Bane
+24 Bartemius (Barty) Crouch, Jr.
+25 Bartemius (Barty) Crouch, Sr.
+26 Bathilda Bagshot
+27 Beedle the Bard
+28 Bellatrix Lestrange
+29 Bertha Jorkins
+30 Bill Weasley
+31 Blaise Zabini
+32 Bob Ogden
+33 Bogrod
+34 Buckbeak
+35 Cadmus Peverell
+36 Cedric Diggory
+37 Charity Burbage
+38 Charlie Weasley
+39 Cho Chang
+40 Colin Creevey
+41 Cormac McLaggen
+42 Cornelius Fudge
+43 Crookshanks
+44 Cuthbert Binns
+45 Dawlish
+46 Dean Thomas
+47 Dedalus Diggle
+48 Demelza Robins
+49 Dennis Creevey
+50 Dirk Cresswell
+51 Dobby
+52 Dolores Jane Umbridge
+53 Draco Malfoy
+54 Dudley Dursley
+55 Elphias Doge
+56 Emmeline Vance
+57 Ernie Macmillan
+58 Errol
+59 Fang
+60 Fawkes
+61 Fenrir Greyback
+62 Filius Flitwick
+63 Firenze
+64 Fleur Delacour
+65 Florean Fortescue
+66 Fluffy
+67 Frank Bryce
+68 Frank Longbottom
+69 Fred Weasley
+70 Gabrielle Delacour
+71 Garrick Ollivander
+72 Gellert Grindelwald
+73 George Weasley
+74 Gilderoy Lockhart
+75 Ginny Weasley
+76 Goyle Sr
+77 Graham Montague
+78 Grawp
+79 Great Aunt Muriel
+80 Gregorovitch
+81 Gregory Goyle
+82 Griphook
+83 Griselda Marchbanks
+84 Hannah Abbott
+85 Harry Potter
+86 Hedwig
+87 Helena Ravenclaw/The Grey Lady
+88 Hepzibah Smith
+89 Hermione Granger
+90 Hokey
+91 Horace Slughorn
+92 Hugo Weasley
+93 Ignotus Peverell
+94 Igor Karkaroff
+95 Irma Pince
+96 James Potter
+97 Justin Finch-Fletchley
+98 Katie Bell
+99 Kingsley Shacklebolt
+100 Kreacher
+101 Lavender Brown
+102 Lee Jordan
+103 Lily Potter
+104 Lord Voldemort
+105 Lucius Malfoy
+106 Ludo Bagman
+107 Luna Lovegood
+108 Madam Hooch
+109 Madam Malkin
+110 Madam Rosmerta
+111 Mafalda Hopkirk
+112 Magorian
+113 Marcus Flint
+114 Marietta Edgecombe
+115 Marjorie (Marge) Dursley
+116 Marvolo Gaunt
+117 Mary Cattermole
+118 Merope Gaunt
+119 Michael Corner
+120 Millicent Bulstrode
+121 Minerva McGonagall
+122 Moaning Myrtle
+123 Molly Weasley
+124 Morfin Gaunt
+125 Mrs Norris
+126 Mrs. Cole
+127 Mundungus Fletcher
+128 Nagini
+129 Narcissa Malfoy
+130 Nearly Headless Nick
+131 Neville Longbottom
+132 Newt Scamander
+133 Norbert/Norberta
+134 Nymphadora Tonks
+135 Oliver Wood
+136 Olympe Maxime
+137 Padma Patil
+138 Pansy Parkinson
+139 Parvati Patil
+140 Peeves
+141 Penelope Clearwater
+142 Percy Weasley
+143 Peter Pettigrew
+144 Petunia Dursley
+145 Phineas Nigellus Black
+146 Pigwidgeon (Pig)
+147 Pius Thicknesse
+148 Pomona Sprout
+149 Poppy Pomfrey
+150 Quirinus Quirrell
+151 Rabastan Lestrange
+152 Reginald Cattermole
+153 Remus Lupin
+154 Rita Skeeter
+155 Rodolphus Lestrange
+156 Roger Davies
+157 Romilda Vane
+158 Ron Weasley
+159 Ronan
+160 Rose Weasley
+161 Rubeus Hagrid
+162 Rufus Scrimgeour
+163 Scabbers
+164 Scabior
+165 Scorpius Malfoy
+166 Seamus Finnigan
+167 Septima Vector
+168 Severus Snape
+169 Sir Cadogan
+170 Sirius Black
+171 Stan Shunpike
+172 Sturgis Podmore
+173 Susan Bones
+174 Sybill Trelawney
+175 Ted Tonks
+176 Terry Boot
+177 The Bloody Baron
+178 The Fat Friar
+179 The Fat Lady
+180 Theodore Nott
+181 Theodore Remus Lupin
+182 Tom Marvolo Riddle
+183 Travers
+184 Trevor
+185 Vernon Dursley
+186 Viktor Krum
+187 Vincent Crabbe
+188 Vincent Crabbe, Sr.
+189 Walden Macnair
+190 Wilhelmina Grubbly-Plank
+191 Wilky Twycross
 192 Winky193 Xenophilius Lovegood
 194 Yaxley
 195 Zacharias Smith
