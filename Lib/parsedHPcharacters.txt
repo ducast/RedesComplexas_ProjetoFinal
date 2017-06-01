@@ -5,43 +5,43 @@ Katie Bell
 Cuthbert Binns
 Phineas Nigellus Black
 Sirius Black
-Black Mrs
 Amelia Bones
 Susan Bones
 Terry Boot
 Lavender Brown
 Millicent Bulstrode
 Charity Burbage
-Graham Montague
-Montague Mrs
 Frank Bryce
 Alecto Carrow
 Amycus Carrow
 Reginald Cattermole
+Mary Cattermole
 Cho Chang
 Penelope Clearwater
+Mrs. Cole
 Michael Corner
-Vincent Crabbe Sr
+Vincent Crabbe, Sr.
 Vincent Crabbe
 Colin Creevey
 Dennis Creevey
 Dirk Cresswell
-Bartemius Barty Crouch Sr Mr
-Bartemius Barty Crouch Jr
+Bartemius Barty Crouch, Sr.
+Bartemius Barty Crouch, Jr.
+Roger Davies
 Dawlish
 Fleur Delacour
 Gabrielle Delacour
 Dedalus Diggle
-Amos Diggory Mr
+Amos Diggory
 Cedric Diggory
 Elphias Doge
 Antonin Dolohov
 Aberforth Dumbledore
 Albus Dumbledore
 Dudley Dursley
-Marjorie Marge Dursley
-Petunia Dursley Mrs
-Vernon Dursley Mr
+Marjorie (Marge) Dursley
+Petunia Dursley
+Vernon Dursley
 Marietta Edgecombe
 Arabella Figg
 Argus Filch
@@ -56,11 +56,9 @@ Marvolo Gaunt
 Merope Gaunt
 Morfin Gaunt
 Anthony Goldstein
-Goyle Sr Mr
+Goyle Sr
 Gregory Goyle
 Hermione Granger
-Granger Mr
-Borgin Sr
 Astoria Greengrass
 Gregorovitch
 Fenrir Greyback
@@ -78,23 +76,29 @@ Bellatrix Lestrange
 Rabastan Lestrange
 Rodolphus Lestrange
 Gilderoy Lockhart
-Alice Longbottom Mrs
+Alice Longbottom
 Augusta Longbottom
-Frank Longbottom Mr
+Frank Longbottom
 Neville Longbottom
 Luna Lovegood
-Xenophilius Lovegood Mr
+Xenophilius Lovegood
 Remus Lupin
 Theodore Remus Lupin
 Walden Macnair
 Draco Malfoy
-Lucius Malfoy Mr
+Lucius Malfoy
 Narcissa Malfoy
 Scorpius Malfoy
+Madam Malkin
+Griselda Marchbanks
 Olympe Maxime
 Ernie Macmillan
 Minerva McGonagall
+Cormac McLaggen
+Graham Montague
 Alastor Mad-Eye Moody
+Theodore Nott
+Bob Ogden
 Garrick Ollivander
 Pansy Parkinson
 Padma Patil
@@ -106,11 +110,12 @@ Ignotus Peverell
 Irma Pince
 Sturgis Podmore
 Poppy Pomfrey
-Harry Potter Mr
+Harry Potter
 James Potter
-Lily Potter Mrs
+Lily Potter
 Quirinus Quirrell
-Helena Ravenclaw
+Helena Ravenclaw/The Grey Lady
+Tom Marvolo Riddle
 Demelza Robins
 Augustus Rookwood
 Albert Runcorn
@@ -133,32 +138,39 @@ Nymphadora Tonks
 Ted Tonks
 Travers
 Sybill Trelawney
+ Wilky Twycross
 Dolores Jane Umbridge
 Emmeline Vance
+Romilda Vane
 Septima Vector
-Lord Voldemort Tom Riddle You- Know- He- Who-
-Arthur Weasley Mr
+Lord Voldemort
+Arthur Weasley
 Bill Weasley
 Charlie Weasley
 Fred Weasley
 George Weasley
 Ginny Weasley
 Hugo Weasley
-Molly Weasley Mrs
+Molly Weasley
 Percy Weasley
 Ron Weasley
 Rose Weasley
 Oliver Wood
 Yaxley
+Blaise Zabini
 Aragog
 Bane
-Bloody Baron
+Beedle the Bard
+The Bloody Baron
+Bogrod
 Buckbeak
+Sir Cadogan
 Crookshanks
 Dobby
 Errol
 Fang
-Friar
+The Fat Friar
+The Fat Lady
 Fawkes
 Firenze
 Fluffy
@@ -166,13 +178,19 @@ Grawp
 Griphook
 Hedwig
 Hokey
+Kreacher
 Magorian
 Moaning Myrtle
 Great Aunt Muriel
 Nagini
 Nearly Headless Nick
-Norbert Norberta
-Norris
+Norbert/Norberta
+Mrs Norris
 Peeves
-Rosmerta
+Pigwidgeon Pig
+Madam Rosmerta
 Ronan
+Scabbers
+Scabior
+Trevor
+Winky

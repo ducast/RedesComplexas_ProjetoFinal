@@ -42,7 +42,7 @@ def my_pct(values):
 if __name__ == '__main__':
 	# {Graph path: graph type}
 	graphsInfo = {
-		"/Users/admin/Documents/UFRJ/RedesComplexas_ProjetoFinal/BooksNetworks/HP_book1.gml": ["weighted", "undirected"]
+		"/Users/admin/Documents/UFRJ/RedesComplexas_ProjetoFinal/Networks/CharacterNetworks/HP_book1.gml": ["undirected"]
 	}
 
 	for graphPath, graphType in graphsInfo.items():
