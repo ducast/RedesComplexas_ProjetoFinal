@@ -27,6 +27,7 @@ if __name__ == '__main__':
 
 	# Writing characters map file and adding them to the graph
 	characters.sort()
+	oldCharacters = [c.replace('\n', '') for c in characters]
 	f=open('../Lib/charactersMap.txt','w')
 	for c in range(len(characters)):
 		v = blank_graph.add_vertex()
@@ -41,6 +42,7 @@ if __name__ == '__main__':
 	exceptions = ['Mr','Mrs','Sr','Jr']
 	for book in booksPaths:
 		g = graph_tool.Graph(blank_graph)
+		usedCharacters = []
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			last_word = False
 			pageCharacters = []
@@ -48,6 +50,7 @@ if __name__ == '__main__':
 				if 'Page |' in line: # New page
 					# Removing repeated characters
 					pageCharacters = np.unique(pageCharacters)
+					usedCharacters+=pageCharacters.tolist()
 					for i, c1 in enumerate(pageCharacters):
 						for c2 in pageCharacters[(i+1):]:
 							v1 = g.vertex(c1)
@@ -100,6 +103,14 @@ if __name__ == '__main__':
 						else:
 							last_word = False
 							last_indexes = []
+
+		# Removing characters that didnt apear in this book
+		usedCharacters = np.unique(usedCharacters).tolist()
+		for c in oldCharacters:
+			if oldCharacters.index(c) not in usedCharacters:
+				v = [i for i in g.vertices() if g.vertex_properties['name'][i] == c]
+				g.remove_vertex(v)
+
 		k = booksPaths.index(book)
 		g.save('../Networks/CharacterNetworks/HP_book{}.gml'.format(k+1))
 

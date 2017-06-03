@@ -41,13 +41,15 @@ def my_pct(values):
 
 if __name__ == '__main__':
 	# {Graph path: graph type}
-	graphsInfo = {
-		"/Users/admin/Documents/UFRJ/RedesComplexas_ProjetoFinal/Networks/CharacterNetworks/HP_book1.gml": ["undirected"]
-	}
 
-	for graphPath, graphType in graphsInfo.items():
-		graphDir = graphPath.replace(graphPath.split('/')[-1], '')
-		graphName = graphPath.split('/')[-1]
+	graphsDir = "../Networks/CharacterNetworks"
+	graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
+
+	for graphPath in graphPaths:
+		graphName = graphPath.split('/')[-1].split('.')[0]
+		graphDir = os.path.join(os.path.dirname(os.path.abspath(graphPath)), "..", "..", "Images", graphName)
+		if not os.path.isdir(graphDir):
+			os.mkdir(graphDir)
 		print('\n{:<15}: {}'.format('Graph', graphName))
 		g = load_graph(graphPath)
 
@@ -56,13 +58,7 @@ if __name__ == '__main__':
 		vertices = g.get_vertices()
 		print ('{:<15}: {:^8}, {:<8}: {:^8}'.format('Arestas', len(edges), 'Vertices', len(vertices)))
 
-		weight = None
-		if "weighted" in graphType:
-			weight = g.edge_properties['weight']
-		directed = False
-		if "directed" in graphType:
-			directed = True
-
+		weight = g.edge_properties['weight']
 
 		# Grau Medio				
 		grau_medio, dp_grau_medio = graph_tool.stats.vertex_average(g, 'total')
@@ -90,7 +86,7 @@ if __name__ == '__main__':
 
 		# Grau total hist
 		grau_hist = graph_tool.stats.vertex_hist(g, 'total')
-		create_hist(grau_hist[0], "$Grau_{k}$", "PDF P[D=k]", graphDir+"deg-dist.png", "Distribuicao do grau total para "+graphName)
+		create_hist(grau_hist[0], "$Grau_{k}$", "PDF P[D=k]", graphDir+"/deg-dist.png", "Distribuicao do grau total para "+graphName)
 
 		# Betwenness
 		vb_map, eb_map = graph_tool.centrality.betweenness(g, weight=weight)
@@ -99,7 +95,7 @@ if __name__ == '__main__':
 		vb_media, dp_vb = graph_tool.stats.vertex_average(g, vb_map)
 		print('{:<15} -> {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<3}: {:^8.3f}'.format('Betwenness', 
 							'Maximo', vb_max, 'minimo', vb_min, 'media', vb_media, 'dp', dp_vb))
-		create_plot(vb_map.a, "$Grau_{k}$", "$Betwenness_{k}$", graphDir+"betweenness-dist.png", "Distribuicao do betweenness para "+graphName)
+		create_plot(vb_map.a, "$Grau_{k}$", "$Betwenness_{k}$", graphDir+"/betweenness-dist.png", "Distribuicao do betweenness para "+graphName)
 
 		# Katz
 		katz_map = graph_tool.centrality.katz(g, weight=weight)
@@ -108,7 +104,7 @@ if __name__ == '__main__':
 		katz_media, dp_katz = graph_tool.stats.vertex_average(g, katz_map)
 		print('{:<15} -> {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<3}: {:^8.3f}'.format('Katz', 
 							'Maximo', katz_max, 'minimo', katz_min, 'media', katz_media, 'dp', dp_katz))
-		create_plot(katz_map.a, "$Grau_{k}$", "$Katz_{k}$", graphDir+"katz-dist.png", "Distribuicao de katz para "+graphName)
+		create_plot(katz_map.a, "$Grau_{k}$", "$Katz_{k}$", graphDir+"/katz-dist.png", "Distribuicao de katz para "+graphName)
 
 		# Pagerank
 		pagerank_map = graph_tool.centrality.pagerank(g, weight=weight)
@@ -117,16 +113,16 @@ if __name__ == '__main__':
 		pagerank_media, dp_pagerank = graph_tool.stats.vertex_average(g, pagerank_map)
 		print('{:<15} -> {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<3}: {:^8.3f}'.format('Pagerank', 
 							'Maximo', pagerank_max, 'minimo', pagerank_min, 'media', pagerank_media, 'dp', dp_pagerank))
-		create_plot(pagerank_map.a, "$Grau_{k}$", "$Pagerank_{k}$", graphDir+"pagerank-dist.png", "Distribuicao do pagerank para "+graphName)
+		create_plot(pagerank_map.a, "$Grau_{k}$", "$Pagerank_{k}$", graphDir+"/pagerank-dist.png", "Distribuicao do pagerank para "+graphName)
 
 		# Clusterizacao local
-		clust = graph_tool.clustering.local_clustering(g, undirected=(not directed))
+		clust = graph_tool.clustering.local_clustering(g)
 		clust_max = max(clust.a)
 		clust_min = min(clust.a)
 		clust_media, dp_clust = graph_tool.stats.vertex_average(g, clust)
 		print('{:<15} -> {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<3}: {:^8.3f}'.format('Clust. local', 
 							'Maximo', clust_max, 'minimo', clust_min, 'media', clust_media, 'dp', dp_clust))
-		create_plot(clust.a, "$Grau_{k}$", "$Clusterizacao_{k}$", graphDir+"clust-dist.png", 
+		create_plot(clust.a, "$Grau_{k}$", "$Clusterizacao_{k}$", graphDir+"/clust-dist.png", 
 							"Distribuicao da clusterizacao local para "+graphName)
 
 		# Clusterizacao global
@@ -134,7 +130,7 @@ if __name__ == '__main__':
 		print('{:<15}: {:^8.3f}, {:<3}: {:^8.3f}'.format('Clust. global', global_clust, 'dp', dp_global_clust))
 
 		# Componentes
-		comp, hist = graph_tool.topology.label_components(g, directed=directed)
+		comp, hist = graph_tool.topology.label_components(g, directed=False)
 		number_of_components = len(np.unique(comp.a))
 		bigger_component = hist[np.unique(np.where(hist==max(hist)))]
 		print('{:<15} {:^8}, {:<8}: {:^8}'.format('Conected comp.:', number_of_components, 'bigger', int(bigger_component)))
@@ -147,12 +143,12 @@ if __name__ == '__main__':
 			plt.title('Tamanho das componentes conexas de '+graphName)
 			plt.gca().pie(sizes, autopct=my_pct(sizes), shadow=True, startangle=90)
 			plt.gca().axis('equal')
-			plt.savefig(graphDir+"conected-components.png")
+			plt.savefig(graphDir+"/conected-components.png")
 
 		pos = graph_tool.draw.sfdp_layout(g, groups=comp, eweight=weight)
-		graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"graph-draw-sfdp.png")
+		graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-sfdp.png")
 		pos = graph_tool.draw.arf_layout(g, max_iter=0)
-		graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"graph-draw-arf.png")
+		graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-arf.png")
 
 
 

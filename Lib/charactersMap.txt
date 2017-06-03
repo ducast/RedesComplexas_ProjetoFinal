@@ -1,5 +1,5 @@
 0 Aberforth Dumbledore
-1 Alastor (Mad-Eye) Moody
+1 Alastor Mad-Eye Moody
 2 Albert Runcorn
 3 Albus Dumbledore
 4 Alecto Carrow
@@ -22,8 +22,8 @@
 21 Augustus Rookwood
 22 Aurora Sinistra
 23 Bane
-24 Bartemius (Barty) Crouch, Jr.
-25 Bartemius (Barty) Crouch, Sr.
+24 Bartemius Barty Crouch Jr.
+25 Bartemius Barty Crouch Sr.
 26 Bathilda Bagshot
 27 Beedle the Bard
 28 Bellatrix Lestrange
@@ -85,7 +85,7 @@
 84 Hannah Abbott
 85 Harry Potter
 86 Hedwig
-87 Helena Ravenclaw/The Grey Lady
+87 Helena Ravenclaw Grey Lady
 88 Hepzibah Smith
 89 Hermione Granger
 90 Hokey
@@ -113,7 +113,7 @@
 112 Magorian
 113 Marcus Flint
 114 Marietta Edgecombe
-115 Marjorie (Marge) Dursley
+115 Marjorie Marge Dursley
 116 Marvolo Gaunt
 117 Mary Cattermole
 118 Merope Gaunt
@@ -131,7 +131,7 @@
 130 Nearly Headless Nick
 131 Neville Longbottom
 132 Newt Scamander
-133 Norbert/Norberta
+133 Norbert Norberta
 134 Nymphadora Tonks
 135 Oliver Wood
 136 Olympe Maxime
@@ -144,7 +144,7 @@
 143 Peter Pettigrew
 144 Petunia Dursley
 145 Phineas Nigellus Black
-146 Pigwidgeon (Pig)
+146 Pigwidgeon Pig
 147 Pius Thicknesse
 148 Pomona Sprout
 149 Poppy Pomfrey
@@ -186,7 +186,7 @@
 185 Vernon Dursley
 186 Viktor Krum
 187 Vincent Crabbe
-188 Vincent Crabbe, Sr.
+188 Vincent Crabbe Sr.
 189 Walden Macnair
 190 Wilhelmina Grubbly-Plank
 191 Wilky Twycross

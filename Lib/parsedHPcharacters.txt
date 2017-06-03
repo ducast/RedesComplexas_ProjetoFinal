@@ -20,13 +20,13 @@ Cho Chang
 Penelope Clearwater
 Mrs. Cole
 Michael Corner
-Vincent Crabbe, Sr.
+Vincent Crabbe Sr.
 Vincent Crabbe
 Colin Creevey
 Dennis Creevey
 Dirk Cresswell
-Bartemius (Barty) Crouch, Sr.
-Bartemius (Barty) Crouch, Jr.
+Bartemius Barty Crouch Sr.
+Bartemius Barty Crouch Jr.
 Roger Davies
 Dawlish
 Fleur Delacour
@@ -39,7 +39,7 @@ Antonin Dolohov
 Aberforth Dumbledore
 Albus Dumbledore
 Dudley Dursley
-Marjorie (Marge) Dursley
+Marjorie Marge Dursley
 Petunia Dursley
 Vernon Dursley
 Marietta Edgecombe
@@ -96,7 +96,7 @@ Ernie Macmillan
 Minerva McGonagall
 Cormac McLaggen
 Graham Montague
-Alastor (Mad-Eye) Moody
+Alastor Mad-Eye Moody
 Theodore Nott
 Bob Ogden
 Garrick Ollivander
@@ -114,7 +114,7 @@ Harry Potter
 James Potter
 Lily Potter
 Quirinus Quirrell
-Helena Ravenclaw/The Grey Lady
+Helena Ravenclaw Grey Lady
 Tom Marvolo Riddle
 Demelza Robins
 Augustus Rookwood
@@ -184,10 +184,10 @@ Moaning Myrtle
 Great Aunt Muriel
 Nagini
 Nearly Headless Nick
-Norbert/Norberta
+Norbert Norberta
 Mrs Norris
 Peeves
-Pigwidgeon (Pig)
+Pigwidgeon Pig
 Madam Rosmerta
 Ronan
 Scabbers
