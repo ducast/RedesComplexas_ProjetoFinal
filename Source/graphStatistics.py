@@ -44,6 +44,7 @@ if __name__ == '__main__':
 
 	graphsDir = "../Networks/CharacterNetworks"
 	graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
+	# graphPaths = ["../Networks/CharacterNetworks/HP_allBooks.gml"]
 
 	for graphPath in graphPaths:
 		graphName = graphPath.split('/')[-1].split('.')[0]

@@ -171,25 +171,25 @@
 170 Septima Vector
 171 Severus Snape
 172 Sir Cadogan
-173 Sirius Black 
+173 Sirius Black
 174 Stan Shunpike
 175 Sturgis Podmore
 176 Susan Bones
 177 Sybill Trelawney
 178 Ted Tonks
-179 Terry Boot
-180 Theodore Nott
-181 Theodore Remus Lupin
+179 Teddy Lupin
+180 Terry Boot
+181 Theodore Nott
 182 Tom Marvolo Riddle
 183 Travers
 184 Trevor
 185 Vernon Dursley Mr
 186 Viktor Krum
 187 Vincent Crabbe
-188 Vincent Crabbe
-189 Walden Macnair
-190 Wilhelmina Grubbly-Plank
-191 Wilky Twycross
-192 Winky193 Xenophilius Lovegood Mr
-194 Yaxley
-195 Zacharias Smith
+188 Walden Macnair
+189 Wilhelmina Grubbly-Plank
+190 Wilky Twycross
+191 Winky
+192 Xenophilius Lovegood Mr
+193 Yaxley
+194 Zacharias Smith

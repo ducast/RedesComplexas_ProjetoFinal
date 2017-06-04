@@ -4,7 +4,7 @@ Bathilda Bagshot
 Katie Bell
 Cuthbert Binns
 Phineas Nigellus Black
-Sirius Black 
+Sirius Black
 Amelia Bones
 Susan Bones
 Terry Boot
@@ -20,7 +20,6 @@ Cho Chang
 Penelope Clearwater
 Mrs. Cole
 Michael Corner
-Vincent Crabbe
 Vincent Crabbe
 Colin Creevey
 Dennis Creevey
@@ -83,7 +82,7 @@ Neville Longbottom
 Luna Lovegood
 Xenophilius Lovegood Mr
 Remus Lupin
-Theodore Remus Lupin
+Teddy Lupin
 Walden Macnair
 Draco Malfoy
 Lucius Malfoy Mr
