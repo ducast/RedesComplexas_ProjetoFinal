@@ -20,12 +20,12 @@ Cho Chang
 Penelope Clearwater
 Mrs. Cole
 Michael Corner
-Vincent Crabbe Sr.
+Vincent Crabbe
 Vincent Crabbe
 Colin Creevey
 Dennis Creevey
 Dirk Cresswell
-Bartemius Barty Crouch Sr.
+Bartemius Barty Crouch
 Bartemius Barty Crouch Jr.
 Roger Davies
 Dawlish
@@ -56,7 +56,7 @@ Marvolo Gaunt
 Merope Gaunt
 Morfin Gaunt
 Anthony Goldstein
-Goyle Sr
+Goyle
 Gregory Goyle
 Hermione Granger
 Astoria Greengrass
@@ -160,8 +160,8 @@ Yaxley
 Blaise Zabini
 Aragog
 Bane
-Beedle the Bard
-The Bloody Baron
+Beedle Bard
+Bloody Baron
 Bogrod
 Buckbeak
 Sir Cadogan
@@ -169,8 +169,8 @@ Crookshanks
 Dobby
 Errol
 Fang
-The Fat Friar
-The Fat Lady
+Fat Friar
+Fat Lady
 Fawkes
 Firenze
 Fluffy

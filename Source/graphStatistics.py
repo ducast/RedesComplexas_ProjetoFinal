@@ -42,7 +42,7 @@ def my_pct(values):
 if __name__ == '__main__':
 	# {Graph path: graph type}
 
-	graphsDir = "../Networks/CharacterNetworks"
+	graphsDir = "../Networks/test"
 	graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
 
 	for graphPath in graphPaths:
