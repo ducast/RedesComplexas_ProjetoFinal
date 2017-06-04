@@ -8,11 +8,14 @@ import sys
 import graph_tool.all
 
 def getHighestVertex (graph, vertexes):
-	degrees = []
+	max_degree = 0
+	highest = None
 	for index in vertexes:
 		v = graph.vertex(index)
-		degrees.append(v.out_degree())
-	return degrees.index(max(degrees))
+		if v.out_degree() > max_degree:
+			max_degree = v.out_degree()
+			highest = index
+	return index
 
 # def drawGraph(oldG, oldSize, index, graphicIndex):
 # 	g = graph_tool.Graph(oldG)
@@ -56,10 +59,6 @@ if __name__ == '__main__':
 		f.write("%d "%c + characters[c])
 		characters[c] = characters[c][:-1].split(" ")
 	f.close()
-
-	for char in characters:
-		if "Remus" in char:
-			print "ok"
 
 	# Adding relations
 	booksDir = "../Books/HarryPotter"
@@ -135,8 +134,16 @@ if __name__ == '__main__':
 								highest = getHighestVertex(g,last_indexes)
 								pageCharacters.append(highest)
 						else:
+							if len(last_indexes) == 1:
+								pageCharacters.append(last_indexes[0])
+							elif len(last_indexes) > 1:
+								highest = getHighestVertex(g,last_indexes)
+								pageCharacters.append(highest)
 							last_word = False
 							last_indexes = []
+
+		print (g.vertex_properties['name'][43])
+		print (g.vertex(43).out_degree())
 
 		# Removing characters that didnt apear in this book
 		usedCharacters = np.unique(usedCharacters).tolist()

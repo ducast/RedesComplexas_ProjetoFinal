@@ -8,11 +8,14 @@ import sys
 import graph_tool.all
 
 def getHighestVertex (graph, vertexes):
-	degrees = []
+	max_degree = 0
+	highest = None
 	for index in vertexes:
 		v = graph.vertex(index)
-		degrees.append(v.out_degree())
-	return degrees.index(max(degrees))
+		if v.out_degree() > max_degree:
+			max_degree = v.out_degree()
+			highest = index
+	return index
 
 def createBlank_graph():
 	# Reading characters list
@@ -21,7 +24,7 @@ def createBlank_graph():
 	f.close()
 
 	# Creating empty graph and its properties
-	blank_graph = graph_tool.Graph()
+	blank_graph = graph_tool.Graph(directed=False)
 	blank_graph.vertex_properties['name']  = blank_graph.new_vertex_property("string")
 	blank_graph.edge_properties['weight']  = blank_graph.new_edge_property("double")
 
@@ -41,9 +44,7 @@ def createNetwork(g, characters):
 	# Adding relations
 	booksDir = "../Books/HarryPotter"
 	booksPaths = [os.path.join(booksDir, f) for f in os.listdir(booksDir)]
-	print booksPaths
 	exceptions = ['Mr','Mrs','Sr','Jr']
-	toPrint = False
 	for book in booksPaths:
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			last_word = False
@@ -52,9 +53,6 @@ def createNetwork(g, characters):
 				if 'Page |' in line: # New page
 					# Removing repeated characters
 					pageCharacters = np.unique(pageCharacters)
-					# if toPrint:
-					# 	print [characters[i] for i in pageCharacters]
-					# 	toPrint = False
 					for i, c1 in enumerate(pageCharacters):
 						for c2 in pageCharacters[(i+1):]:
 							v1 = g.vertex(c1)
@@ -71,10 +69,6 @@ def createNetwork(g, characters):
 					lineWords = re.compile('\w+-*').findall(line)
 					for word in lineWords:
 						if word[0].isupper():
-							# if "Remus" in word:
-							# 	toPrint=True
-							# if toPrint:
-							# 	print(word)
 							count = 0
 							indexes = []
 							if last_word:  # In case of Name conflict, or Mr., Mrs.
@@ -95,6 +89,7 @@ def createNetwork(g, characters):
 									if word in char:
 										count+=1
 										indexes.append(characters.index(char))
+
 							if word in exceptions or count > 1:
 								last_word = word
 								last_indexes = indexes
@@ -102,6 +97,7 @@ def createNetwork(g, characters):
 							else:
 								last_word = False
 								last_indexes = []
+
 							if len(indexes) == 1:
 								if indexes[0] not in pageCharacters:
 									pageCharacters.append(indexes[0])
@@ -109,6 +105,11 @@ def createNetwork(g, characters):
 								highest = getHighestVertex(g,last_indexes)
 								pageCharacters.append(highest)
 						else:
+							if len(last_indexes) == 1:
+								pageCharacters.append(last_indexes[0])
+							elif len(last_indexes) > 1:
+								highest = getHighestVertex(g,last_indexes)
+								pageCharacters.append(highest)
 							last_word = False
 							last_indexes = []
 
@@ -119,6 +120,8 @@ def createNetwork(g, characters):
 if __name__ == '__main__':
 	initialGraph, characters = createBlank_graph()
 	g = createNetwork(initialGraph, characters)
-	print (g.vertex_properties['name'][156])
+
+	#What happens if we eliminate Harry Potter?? Index = 
+	
 
 	

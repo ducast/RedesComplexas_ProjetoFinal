@@ -22,27 +22,27 @@
 21 Augustus Rookwood
 22 Aurora Sinistra
 23 Bane
-24 Bartemius Barty Crouch Jr
-25 Bartemius Barty Crouch Mr Sr
-26 Bathilda Bagshot
-27 Beedle Bard
-28 Bellatrix Lestrange
-29 Bertha Jorkins
-30 Bill Weasley
-31 Blaise Zabini
-32 Bloody Baron
-33 Bob Ogden
-34 Bogrod
-35 Buckbeak
-36 Cadmus Peverell
-37 Cedric Diggory
-38 Charity Burbage
-39 Charlie Weasley
-40 Cho Chang
-41 Colin Creevey
-42 Cormac McLaggen
-43 Cornelius Fudge
-44 Crookshanks
+24 Bathilda Bagshot
+25 Beedle Bard
+26 Bellatrix Lestrange
+27 Bertha Jorkins
+28 Bill Weasley
+29 Blaise Zabini
+30 Bloody Baron
+31 Bob Ogden
+32 Bogrod
+33 Buckbeak
+34 Cadmus Peverell
+35 Cedric Diggory
+36 Charity Burbage
+37 Charlie Weasley
+38 Cho Chang
+39 Colin Creevey
+40 Cormac McLaggen
+41 Cornelius Fudge
+42 Crookshanks
+43 Crouch Jr
+44 Crouch Mr Sr
 45 Cuthbert Binns
 46 Dawlish
 47 Dean Thomas
