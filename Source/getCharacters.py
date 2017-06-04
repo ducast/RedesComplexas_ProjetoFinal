@@ -74,8 +74,6 @@ if __name__ == '__main__':
 					# Removing repeated characters
 					pageCharacters = np.unique(pageCharacters)
 					usedCharacters+=pageCharacters.tolist()
-					print [oldCharacters[i] for i in usedCharacters]
-					break
 					for i, c1 in enumerate(pageCharacters):
 						for c2 in pageCharacters[(i+1):]:
 							v1 = g.vertex(c1)
@@ -86,9 +84,9 @@ if __name__ == '__main__':
 								g.edge_properties['weight'][newEdge] = 1
 							else:
 								g.edge_properties['weight'][myEdge] += 1
-						graphSize = drawGraph(drawGraph, pageCharacters, graphSize, k+1, graficIndex)
-						if graphSize > 10:
-							break
+						# graphSize = drawGraph(drawGraph, pageCharacters, graphSize, k+1, graficIndex)
+						# if graphSize > 10:
+						# 	break
 						graficIndex+=1
 					pageCharacters = []
 
@@ -114,7 +112,6 @@ if __name__ == '__main__':
 							else:
 								for char in characters:
 									if word in char:
-										print word
 										count+=1
 										indexes.append(characters.index(char))
 							if word in exceptions or count > 1:
@@ -141,5 +138,5 @@ if __name__ == '__main__':
 				v = [i for i in g.vertices() if g.vertex_properties['name'][i] == c]
 				g.remove_vertex(v)
 
-		# g.save('../Networks/CharacterNetworks/HP_book{}.gml'.format(k+1))
+		g.save('../Networks/CharacterNetworks/HP_book{}.gml'.format(k+1))
 

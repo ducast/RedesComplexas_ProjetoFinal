@@ -4,7 +4,7 @@ Bathilda Bagshot
 Katie Bell
 Cuthbert Binns
 Phineas Nigellus Black
-Sirius Black
+Sirius Black 
 Amelia Bones
 Susan Bones
 Terry Boot
@@ -25,14 +25,14 @@ Vincent Crabbe
 Colin Creevey
 Dennis Creevey
 Dirk Cresswell
-Bartemius Barty Crouch
-Bartemius Barty Crouch Jr.
+Bartemius Barty Crouch Mr Sr
+Bartemius Barty Crouch Jr
 Roger Davies
 Dawlish
 Fleur Delacour
 Gabrielle Delacour
 Dedalus Diggle
-Amos Diggory
+Amos Diggory Mr
 Cedric Diggory
 Elphias Doge
 Antonin Dolohov
@@ -40,8 +40,8 @@ Aberforth Dumbledore
 Albus Dumbledore
 Dudley Dursley
 Marjorie Marge Dursley
-Petunia Dursley
-Vernon Dursley
+Petunia Dursley Mrs
+Vernon Dursley Mr
 Marietta Edgecombe
 Arabella Figg
 Argus Filch
@@ -56,7 +56,7 @@ Marvolo Gaunt
 Merope Gaunt
 Morfin Gaunt
 Anthony Goldstein
-Goyle
+Goyle Sr Mr
 Gregory Goyle
 Hermione Granger
 Astoria Greengrass
@@ -76,17 +76,17 @@ Bellatrix Lestrange
 Rabastan Lestrange
 Rodolphus Lestrange
 Gilderoy Lockhart
-Alice Longbottom
+Alice Longbottom Mrs
 Augusta Longbottom
-Frank Longbottom
+Frank Longbottom Mr
 Neville Longbottom
 Luna Lovegood
-Xenophilius Lovegood
+Xenophilius Lovegood Mr
 Remus Lupin
 Theodore Remus Lupin
 Walden Macnair
 Draco Malfoy
-Lucius Malfoy
+Lucius Malfoy Mr
 Narcissa Malfoy
 Scorpius Malfoy
 Madam Malkin
@@ -110,9 +110,9 @@ Ignotus Peverell
 Irma Pince
 Sturgis Podmore
 Poppy Pomfrey
-Harry Potter
+Harry Potter Mr
 James Potter
-Lily Potter
+Lily Potter Mrs
 Quirinus Quirrell
 Helena Ravenclaw Grey Lady
 Tom Marvolo Riddle
@@ -144,14 +144,14 @@ Emmeline Vance
 Romilda Vane
 Septima Vector
 Lord Voldemort
-Arthur Weasley
+Arthur Weasley Mr
 Bill Weasley
 Charlie Weasley
 Fred Weasley
 George Weasley
 Ginny Weasley
 Hugo Weasley
-Molly Weasley
+Molly Weasley Mrs
 Percy Weasley
 Ron Weasley
 Rose Weasley

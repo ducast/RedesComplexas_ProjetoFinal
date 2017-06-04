@@ -3,10 +3,10 @@
 2 Albert Runcorn
 3 Albus Dumbledore
 4 Alecto Carrow
-5 Alice Longbottom
+5 Alice Longbottom Mrs
 6 Alicia Spinnet
 7 Amelia Bones
-8 Amos Diggory
+8 Amos Diggory Mr
 9 Amycus Carrow
 10 Andromeda Tonks
 11 Angelina Johnson
@@ -16,14 +16,14 @@
 15 Arabella Figg
 16 Aragog
 17 Argus Filch
-18 Arthur Weasley
+18 Arthur Weasley Mr
 19 Astoria Greengrass
 20 Augusta Longbottom
 21 Augustus Rookwood
 22 Aurora Sinistra
 23 Bane
-24 Bartemius Barty Crouch Jr.
-25 Bartemius Barty Crouch Sr.
+24 Bartemius Barty Crouch Jr
+25 Bartemius Barty Crouch Mr Sr
 26 Bathilda Bagshot
 27 Beedle Bard
 28 Bellatrix Lestrange
@@ -69,7 +69,7 @@
 68 Florean Fortescue
 69 Fluffy
 70 Frank Bryce
-71 Frank Longbottom
+71 Frank Longbottom Mr
 72 Fred Weasley
 73 Gabrielle Delacour
 74 Garrick Ollivander
@@ -77,7 +77,7 @@
 76 George Weasley
 77 Gilderoy Lockhart
 78 Ginny Weasley
-79 Goyle Sr
+79 Goyle Sr Mr
 80 Graham Montague
 81 Grawp
 82 Great Aunt Muriel
@@ -86,7 +86,7 @@
 85 Griphook
 86 Griselda Marchbanks
 87 Hannah Abbott
-88 Harry Potter
+88 Harry Potter Mr
 89 Hedwig
 90 Helena Ravenclaw Grey Lady
 91 Hepzibah Smith
@@ -104,9 +104,9 @@
 103 Kreacher
 104 Lavender Brown
 105 Lee Jordan
-106 Lily Potter
+106 Lily Potter Mrs
 107 Lord Voldemort
-108 Lucius Malfoy
+108 Lucius Malfoy Mr
 109 Ludo Bagman
 110 Luna Lovegood
 111 Madam Hooch
@@ -124,7 +124,7 @@
 123 Millicent Bulstrode
 124 Minerva McGonagall
 125 Moaning Myrtle
-126 Molly Weasley
+126 Molly Weasley Mrs
 127 Morfin Gaunt
 128 Mrs Norris
 129 Mrs. Cole
@@ -145,7 +145,7 @@
 144 Penelope Clearwater
 145 Percy Weasley
 146 Peter Pettigrew
-147 Petunia Dursley
+147 Petunia Dursley Mrs
 148 Phineas Nigellus Black
 149 Pigwidgeon Pig
 150 Pius Thicknesse
@@ -171,7 +171,7 @@
 170 Septima Vector
 171 Severus Snape
 172 Sir Cadogan
-173 Sirius Black
+173 Sirius Black 
 174 Stan Shunpike
 175 Sturgis Podmore
 176 Susan Bones
@@ -183,13 +183,13 @@
 182 Tom Marvolo Riddle
 183 Travers
 184 Trevor
-185 Vernon Dursley
+185 Vernon Dursley Mr
 186 Viktor Krum
 187 Vincent Crabbe
-188 Vincent Crabbe Sr.
+188 Vincent Crabbe
 189 Walden Macnair
 190 Wilhelmina Grubbly-Plank
 191 Wilky Twycross
-192 Winky193 Xenophilius Lovegood
+192 Winky193 Xenophilius Lovegood Mr
 194 Yaxley
 195 Zacharias Smith
