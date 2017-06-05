@@ -45,30 +45,26 @@ def createNetwork(g, characters):
 	booksDir = "../Books/HarryPotter"
 	booksPaths = [os.path.join(booksDir, f) for f in os.listdir(booksDir)]
 	exceptions = ['Mr','Mrs','Sr','Jr']
+	pageCharacters = []
 	for book in booksPaths:
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			last_word = False
-			pageCharacters = []
 			lineCount = 0
 			for line in bookFile:
 				if 'Page |' in line: # New page
-					lineCount = 0
-					# Removing repeated characters
-					# pageCharacters = np.unique(pageCharacters)
-					print pageCharacters
 					for i, c1 in enumerate(pageCharacters):
+						if i+1 >= len(pageCharacters):
+							break
 						v1 = g.vertex(c1)
-						for c2 in pageCharacters[(i+1):]:
-							v2 = g.vertex(c2)
-							myEdge = g.edge(v1, v2)
-							if myEdge == None:	# New edge
-								# if c1 == 91 :
-								# 	print c2
-								newEdge = g.add_edge(v1, v2)
-								g.edge_properties['weight'][newEdge] = 1
-							else:
-								g.edge_properties['weight'][myEdge] += 1
-					pageCharacters = []
+						c2 = pageCharacters[i+1]
+						v2 = g.vertex(c2)
+						myEdge = g.edge(v1, v2)
+						if myEdge == None:	# New edge
+							newEdge = g.add_edge(v1, v2)
+							g.edge_properties['weight'][newEdge] = 1
+						else:
+							g.edge_properties['weight'][myEdge] += 1
+					pageCharacters = [pageCharacters[-1]]
 
 				else:
 					lineCount+=1
@@ -85,7 +81,8 @@ def createNetwork(g, characters):
 								if count == 0: # In case they don't match
 									if last_word not in exceptions:
 										highest = getHighestVertex(g,last_indexes)
-										pageCharacters.append(highest)
+										if pageCharacters[-1] != highest:
+											pageCharacters.append(highest)
 									for char in characters:
 										if word in char:
 											count+=1
@@ -105,21 +102,23 @@ def createNetwork(g, characters):
 								last_indexes = []
 
 							if len(indexes) == 1:
-								if indexes[0] not in pageCharacters:
+								if len(pageCharacters)==0:
 									pageCharacters.append(indexes[0])
-							# elif len(indexes) > 1:
-							# 	highest = getHighestVertex(g,last_indexes)
-							# 	pageCharacters.append(highest)
+								elif indexes[0] != pageCharacters[-1]:
+									pageCharacters.append(indexes[0])
 						else:
 							if len(last_indexes) == 1:
-								pageCharacters.append(last_indexes[0])
+								if len(pageCharacters)==0:
+									pageCharacters.append(last_indexes[0])
+								elif indexes[0] != pageCharacters[-1]:
+									pageCharacters.append(last_indexes[0])
 							elif len(last_indexes) > 1:
 								highest = getHighestVertex(g,last_indexes)
 								pageCharacters.append(highest)
 							last_word = False
 							last_indexes = []
 
-	g.save('../Networks/CharacterNetworks/HP_allBooks.gml')
+	g.save('../Networks/CharacterNetworks/HP_allBooks-adj.gml')
 	return g
 
 

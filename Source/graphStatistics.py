@@ -40,7 +40,8 @@ def my_pct(values):
 	return my_autopct
 
 def grau_medio(g):
-	# # Grau Medio				
+	# # Grau Medio	
+	vertices = g.vertices()			
 	grau_medio, dp_grau_medio = graph_tool.stats.vertex_average(g, 'total')
 	grau_medio_in, dp_grau_medio_in = graph_tool.stats.vertex_average(g, 'in')
 	grau_medio_out, dp_grau_medio_out = graph_tool.stats.vertex_average(g, 'out')
@@ -114,7 +115,7 @@ def componentes(g):
 	comp, hist = graph_tool.topology.label_components(g, directed=False)
 	number_of_components = len(np.unique(comp.a))
 	bigger_component = hist[np.unique(np.where(hist==max(hist)))]
-	print('{:<15} {:^8}, {:<8}: {:^8}'.format('Conected comp.:', number_of_components, 'bigger', int(bigger_component)))
+	print('{:<15} {:^8}, {:<8}: {:^8}'.format('Conected comp.:', number_of_components, 'bigger', str(bigger_component)))
 	if number_of_components > 1:
 		x = comp.a
 		sizes = hist
@@ -131,6 +132,14 @@ def componentes(g):
 	# pos = graph_tool.draw.arf_layout(g, max_iter=0)
 	# graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-arf.png")
 
+def drawGraph(g, graphDir, name):
+	deg = g.degree_property_map("out")
+	deg.a =  (np.sqrt(deg.a) * 0.5 + 0.4)	
+	pos = graph_tool.draw.sfdp_layout(g)
+	weight = g.edge_properties['weight']
+	control = g.new_edge_property("vector<double>")
+	graph_tool.draw.graph_draw(g, pos=pos, vertex_size=deg, vertex_fill_color=deg, vorder=deg,
+					vertex_text=g.vertex_index, output=graphDir+"/graph-draw-{}.pdf".format(name))
 
 
 if __name__ == '__main__':
@@ -138,7 +147,7 @@ if __name__ == '__main__':
 
 	graphsDir = "../Networks/CharacterNetworks"
 	# graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
-	graphPaths = ["../Networks/CharacterNetworks/HP_allBooks.gml"]
+	graphPaths = ["../Networks/CharacterNetworks/HP_allBooks-adj.gml"]
 
 	for graphPath in graphPaths:
 		graphName = graphPath.split('/')[-1].split('.')[0]
@@ -155,44 +164,82 @@ if __name__ == '__main__':
 
 		weight = g.edge_properties['weight']
 
+		order_e = []
+		for e in g.edges():
+			order_e.append([g.edge_properties['weight'][e], e.source, e.target])
+		order_e = sorted(order_e)
+		for e in order_e:
+			print e
+		
+
+
 		# # # Grau total hist
 		# grau_hist = graph_tool.stats.vertex_hist(g, 'total')
 		# create_hist(grau_hist[0], "$Grau_{k}$", "PDF P[D=k]", graphDir+"/deg-dist.png", "Distribuicao do grau total para "+graphName)
 
 		# Caminhos minimos
-		shortest_dist = graph_tool.topology.shortest_distance(g)
-		total_dist = 0
+		# shortest_dist = graph_tool.topology.shortest_distance(g)
+		# total_dist = 0
 
-		for v in g.vertices():
-			dist = shortest_dist[v].a
-			dist_mean = float(sum(dist))/len(dist)
-			total_dist+=dist_mean
-			# print '{}: {}'.format(g.vertex_properties['name'][v], dist_mean)
-		print '\nTotal dist mean: {}\n\n'.format(total_dist/len([i for i in g.vertices()]))
+		# for v in g.vertices():
+		# 	dist = shortest_dist[v].a
+		# 	dist_mean = float(sum(dist))/len(dist)
+		# 	total_dist+=dist_mean
+		# 	# print '{}: {}'.format(g.vertex_properties['name'][v], dist_mean)
+		# print '\nTotal dist mean: {}\n\n'.format(total_dist/len([i for i in g.vertices()]))
 
 		# hp = [v for v in g.vertices() if "Harry Potter" in g.vertex_properties['name'][v]][0]
 
 		# excluded_chars = []		
 		# for v in g.vertices():
 		# 	if v.out_degree() > 190:
-		# 		print g.vertex_properties['name'][v]
+		# 		print g.vertex_properties['name'][v], v.out_degree()
 		# 		excluded_chars.append(v)
 		# 		g.clear_vertex(v)
 
-		g.remove_vertex(87)
 
 
-		shortest_dist = graph_tool.topology.shortest_distance(g)
-		total_dist = 0
-		count = 0.0
 
-		for v in g.vertices():
-			dist = shortest_dist[v].a
-			dist_mean = float(sum(dist))/len(dist)
-			total_dist+=dist_mean
+		# total_size = len([i for i in g.vertices()])
+		# for i in range(total_size):
+		# 	drawGraph(g, graphDir, str(i))
+		# 	bigger = 0
+		# 	max_degree = -1
+		# 	for v in g.vertices():
+		# 		if v.out_degree() > max_degree:
+		# 			bigger = v
+		# 			max_degree = v.out_degree()
+		# 	print('\n')
+		# 	print (i, g.vertex_properties['name'][bigger], bigger.out_degree())
+		# 	g.remove_vertex(bigger)
+		# 	componentes(g)
+		# 	grau_medio(g)
+		# 	clust_global(g)
+		# 	clust_local(g)
+		# 	shortest_dist = graph_tool.topology.shortest_distance(g)
+		# 	total_dist = 0
+		# 	for v in g.vertices():
+		# 		dist = shortest_dist[v].a
+		# 		dist_mean = float(sum(dist))/len(dist)
+		# 		total_dist+=dist_mean
+		# 	print 'Total dist mean: {}'.format(total_dist/len([i for i in g.vertices()]))
+
+
+
+
+
+
+		# shortest_dist = graph_tool.topology.shortest_distance(g)
+		# total_dist = 0
+		# count = 0.0
+
+		# for v in g.vertices():
+		# 	dist = shortest_dist[v].a
+		# 	dist_mean = float(sum(dist))/len(dist)
+		# 	total_dist+=dist_mean
 			# print '{}: {}'.format(g.vertex_properties['name'][v], dist_mean)
 		# print '\nTotal dist mean: {}\n\n'.format(total_dist/len([i for i in g.vertices()]))
-		
+
 		# componentes(g)
 
 
@@ -202,8 +249,8 @@ if __name__ == '__main__':
 		# 			if v2 not in excluded_chars and v2 != v:
 		# 				total_dist += graph_tool.topology.shortest_distance(g,v,v2)
 		# 				count += 1
-		total_dist/=count
-		print '\nTotal dist mean: {}\n\n'.format(total_dist/len([i for i in g.vertices()]))
+		# total_dist/=count
+		# print '\nTotal dist mean: {}\n\n'.format(total_dist/len([i for i in g.vertices()]))
 
 
 

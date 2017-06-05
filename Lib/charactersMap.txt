@@ -1,59 +1,59 @@
-0 Aberforth Dumbledore
-1 Alastor Mad-Eye Moody
-2 Albert Runcorn
-3 Albus Dumbledore
-4 Alecto Carrow
-5 Alice Longbottom Mrs
-6 Alicia Spinnet
-7 Amelia Bones
-8 Amos Diggory Mr
-9 Amycus Carrow
-10 Andromeda Tonks
-11 Angelina Johnson
-12 Anthony Goldstein
-13 Antioch Peverell
-14 Antonin Dolohov
-15 Arabella Figg
-16 Aragog
-17 Argus Filch
-18 Arthur Weasley Mr
-19 Astoria Greengrass
-20 Augusta Longbottom
-21 Augustus Rookwood
-22 Aurora Sinistra
-23 Bane
-24 Bathilda Bagshot
-25 Beedle Bard
-26 Bellatrix Lestrange
-27 Bertha Jorkins
-28 Bill Weasley
-29 Blaise Zabini
-30 Bloody Baron
-31 Bob Ogden
-32 Bogrod
-33 Buckbeak
-34 Cadmus Peverell
-35 Cadogan
-36 Cedric Diggory
-37 Charity Burbage
-38 Charlie Weasley
-39 Cho Chang
-40 Colin Creevey
-41 Cormac McLaggen
-42 Cornelius Fudge
-43 Crookshanks
-44 Crouch Mr Sr
-45 Cuthbert Binns
-46 Dawlish
-47 Dean Thomas
-48 Dedalus Diggle
-49 Demelza Robins
-50 Dennis Creevey
-51 Dirk Cresswell
-52 Dobby
-53 Dolores Jane Umbridge
-54 Draco Malfoy
-55 Dudley Dursley
+0 Alastor Mad-Eye Moody
+1 Albert Runcorn
+2 Albus Dumbledore
+3 Alecto Carrow
+4 Alice Longbottom Mrs
+5 Alicia Spinnet
+6 Amelia Bones
+7 Amos Diggory Mr
+8 Amycus Carrow
+9 Andromeda Tonks
+10 Angelina Johnson
+11 Anthony Goldstein
+12 Antioch Peverell
+13 Antonin Dolohov
+14 Arabella Figg
+15 Aragog
+16 Argus Filch
+17 Arthur Weasley Mr
+18 Astoria Greengrass
+19 Augusta Longbottom
+20 Augustus Rookwood
+21 Aurora Sinistra
+22 Bane
+23 Bathilda Bagshot
+24 Beedle Bard
+25 Bellatrix Lestrange
+26 Bertha Jorkins
+27 Bill Weasley
+28 Blaise Zabini
+29 Bloody Baron
+30 Bob Ogden
+31 Bogrod
+32 Buckbeak
+33 Cadmus Peverell
+34 Cadogan
+35 Cedric Diggory
+36 Charity Burbage
+37 Charlie Weasley
+38 Cho Chang
+39 Colin Creevey
+40 Cormac McLaggen
+41 Cornelius Fudge
+42 Crookshanks
+43 Crouch Mr Sr
+44 Cuthbert Binns
+45 Dawlish
+46 Dean Thomas
+47 Dedalus Diggle
+48 Demelza Robins
+49 Dennis Creevey
+50 Dirk Cresswell
+51 Dobby
+52 Dolores Jane Umbridge
+53 Draco Malfoy
+54 Dudley Dursley
+55 Dumbledore Aberforth
 56 Elphias Doge
 57 Emmeline Vance
 58 Ernie Macmillan

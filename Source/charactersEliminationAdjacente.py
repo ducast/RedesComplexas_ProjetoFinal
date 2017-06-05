@@ -68,7 +68,7 @@ def createNetwork(g, characters):
 								g.edge_properties['weight'][newEdge] = 1
 							else:
 								g.edge_properties['weight'][myEdge] += 1
-					pageCharacters = []
+					pageCharacters = [pageCharacters[-1]]
 
 				else:
 					lineCount+=1
@@ -85,7 +85,8 @@ def createNetwork(g, characters):
 								if count == 0: # In case they don't match
 									if last_word not in exceptions:
 										highest = getHighestVertex(g,last_indexes)
-										pageCharacters.append(highest)
+										if pageCharacters[-1] != highest:
+											pageCharacters.append(highest)
 									for char in characters:
 										if word in char:
 											count+=1
@@ -105,21 +106,22 @@ def createNetwork(g, characters):
 								last_indexes = []
 
 							if len(indexes) == 1:
-								if indexes[0] not in pageCharacters:
+								if indexes[0] != pageCharacters[-1]:
 									pageCharacters.append(indexes[0])
 							# elif len(indexes) > 1:
 							# 	highest = getHighestVertex(g,last_indexes)
 							# 	pageCharacters.append(highest)
 						else:
 							if len(last_indexes) == 1:
-								pageCharacters.append(last_indexes[0])
+								if indexes[0] != pageCharacters[-1]:
+									pageCharacters.append(last_indexes[0])
 							elif len(last_indexes) > 1:
 								highest = getHighestVertex(g,last_indexes)
 								pageCharacters.append(highest)
 							last_word = False
 							last_indexes = []
 
-	g.save('../Networks/CharacterNetworks/HP_allBooks.gml')
+	g.save('../Networks/CharacterNetworks/HP_allBooks-adj.gml')
 	return g
 
 
