@@ -7,15 +7,15 @@ import string
 import sys
 import graph_tool.all
 
-def getHighestVertex (graph, vertexes):
-	max_degree = 0
-	highest = None
-	for index in vertexes:
+def getHighestVertex (graph, vertices):
+	max_degree = -1
+	highest = vertices[0]
+	for index in vertices:
 		v = graph.vertex(index)
 		if v.out_degree() > max_degree:
 			max_degree = v.out_degree()
 			highest = index
-	return index
+	return highest
 
 # def drawGraph(oldG, oldSize, index, graphicIndex):
 # 	g = graph_tool.Graph(oldG)
@@ -67,6 +67,7 @@ if __name__ == '__main__':
 	for book in booksPaths:
 		g = graph_tool.Graph(blank_graph)
 		k = booksPaths.index(book)
+		toPrint = False
 		# graficIndex = 0
 		# graphSize = 0
 		usedCharacters = []
@@ -107,13 +108,14 @@ if __name__ == '__main__':
 										indexes.append(characters.index(char))
 								if count == 0: # In case they don't match
 									if last_word not in exceptions:
-										highest = getHighestVertex(g,last_indexes)
 										pageCharacters.append(highest)
+										last_indexes = []
+										last_word = False
 									for char in characters:
 										if word in char:
 											count+=1
 											indexes.append(characters.index(char))
-							else:
+							else: # Check if word matches a character
 								for char in characters:
 									if word in char:
 										count+=1
@@ -130,9 +132,6 @@ if __name__ == '__main__':
 							if len(indexes) == 1:
 								if indexes[0] not in pageCharacters:
 									pageCharacters.append(indexes[0])
-							elif len(indexes) > 1:
-								highest = getHighestVertex(g,last_indexes)
-								pageCharacters.append(highest)
 						else:
 							if len(last_indexes) == 1:
 								pageCharacters.append(last_indexes[0])
@@ -142,8 +141,6 @@ if __name__ == '__main__':
 							last_word = False
 							last_indexes = []
 
-		print (g.vertex_properties['name'][43])
-		print (g.vertex(43).out_degree())
 
 		# Removing characters that didnt apear in this book
 		usedCharacters = np.unique(usedCharacters).tolist()

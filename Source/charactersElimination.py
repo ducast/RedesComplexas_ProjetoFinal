@@ -8,14 +8,14 @@ import sys
 import graph_tool.all
 
 def getHighestVertex (graph, vertexes):
-	max_degree = 0
-	highest = None
+	max_degree = -1
+	highest = vertexes[0]
 	for index in vertexes:
 		v = graph.vertex(index)
 		if v.out_degree() > max_degree:
 			max_degree = v.out_degree()
 			highest = index
-	return index
+	return highest
 
 def createBlank_graph():
 	# Reading characters list
@@ -49,16 +49,21 @@ def createNetwork(g, characters):
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			last_word = False
 			pageCharacters = []
+			lineCount = 0
 			for line in bookFile:
 				if 'Page |' in line: # New page
+					lineCount = 0
 					# Removing repeated characters
 					pageCharacters = np.unique(pageCharacters)
+					# print pageCharacters
 					for i, c1 in enumerate(pageCharacters):
+						v1 = g.vertex(c1)
 						for c2 in pageCharacters[(i+1):]:
-							v1 = g.vertex(c1)
 							v2 = g.vertex(c2)
 							myEdge = g.edge(v1, v2)
 							if myEdge == None:	# New edge
+								# if c1 == 91 :
+								# 	print c2
 								newEdge = g.add_edge(v1, v2)
 								g.edge_properties['weight'][newEdge] = 1
 							else:
@@ -66,6 +71,7 @@ def createNetwork(g, characters):
 					pageCharacters = []
 
 				else:
+					lineCount+=1
 					lineWords = re.compile('\w+-*').findall(line)
 					for word in lineWords:
 						if word[0].isupper():
@@ -90,7 +96,7 @@ def createNetwork(g, characters):
 										count+=1
 										indexes.append(characters.index(char))
 
-							if word in exceptions or count > 1:
+							if count > 1: #Conflito
 								last_word = word
 								last_indexes = indexes
 								indexes = []
@@ -101,9 +107,9 @@ def createNetwork(g, characters):
 							if len(indexes) == 1:
 								if indexes[0] not in pageCharacters:
 									pageCharacters.append(indexes[0])
-							elif len(indexes) > 1:
-								highest = getHighestVertex(g,last_indexes)
-								pageCharacters.append(highest)
+							# elif len(indexes) > 1:
+							# 	highest = getHighestVertex(g,last_indexes)
+							# 	pageCharacters.append(highest)
 						else:
 							if len(last_indexes) == 1:
 								pageCharacters.append(last_indexes[0])
@@ -121,7 +127,7 @@ if __name__ == '__main__':
 	initialGraph, characters = createBlank_graph()
 	g = createNetwork(initialGraph, characters)
 
-	#What happens if we eliminate Harry Potter?? Index = 
+	#What happens if we eliminate Harry Potter?? Index = 88
 	
 
 	

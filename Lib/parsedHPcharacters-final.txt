@@ -18,14 +18,13 @@ Reginald Cattermole
 Mary Cattermole
 Cho Chang
 Penelope Clearwater
-Mrs. Cole
+Mrs Cole
 Michael Corner
 Vincent Crabbe
 Colin Creevey
 Dennis Creevey
 Dirk Cresswell
 Crouch Mr Sr
-Crouch Jr
 Roger Davies
 Dawlish
 Fleur Delacour
@@ -81,13 +80,12 @@ Frank Longbottom Mr
 Neville Longbottom
 Luna Lovegood
 Xenophilius Lovegood Mr
-Remus Lupin
+Remus Lupin R
 Teddy Lupin
 Walden Macnair
 Draco Malfoy
 Lucius Malfoy Mr
 Narcissa Malfoy
-Scorpius Malfoy
 Madam Malkin
 Griselda Marchbanks
 Olympe Maxime
@@ -153,7 +151,6 @@ Hugo Weasley
 Molly Weasley Mrs
 Percy Weasley
 Ron Weasley
-Rose Weasley
 Oliver Wood
 Yaxley
 Blaise Zabini
@@ -163,7 +160,7 @@ Beedle Bard
 Bloody Baron
 Bogrod
 Buckbeak
-Sir Cadogan
+Cadogan
 Crookshanks
 Dobby
 Errol
@@ -180,14 +177,14 @@ Hokey
 Kreacher
 Magorian
 Moaning Myrtle
-Great Aunt Muriel
+Muriel
 Nagini
 Nearly Headless Nick
 Norbert Norberta
 Mrs Norris
 Peeves
-Pigwidgeon Pig
-Madam Rosmerta
+Pigwidgeon Pig 
+Rosmerta
 Ronan
 Scabbers
 Scabior
