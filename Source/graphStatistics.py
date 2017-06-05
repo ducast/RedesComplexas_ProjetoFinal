@@ -166,7 +166,7 @@ if __name__ == '__main__':
 
 		order_e = []
 		for e in g.edges():
-			order_e.append([g.edge_properties['weight'][e], e.source, e.target])
+			order_e.append([g.edge_properties['weight'][e], e.source.index(), e.target.index()])
 		order_e = sorted(order_e)
 		for e in order_e:
 			print e
