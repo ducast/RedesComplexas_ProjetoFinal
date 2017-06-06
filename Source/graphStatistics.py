@@ -102,8 +102,8 @@ def clust_local(g):
 	clust_media, dp_clust = graph_tool.stats.vertex_average(g, clust)
 	print('{:<15} -> {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<8}: {:^8.3f} | {:<3}: {:^8.3f}'.format('Clust. local', 
 						'Maximo', clust_max, 'minimo', clust_min, 'media', clust_media, 'dp', dp_clust))
-	create_plot(clust.a, "$Grau_{k}$", "$Clusterizacao_{k}$", graphDir+"/clust-dist.png", 
-							"Distribuicao da clusterizacao local para "+graphName)
+	# create_plot(clust.a, "$Grau_{k}$", "$Clusterizacao_{k}$", graphDir+"/clust-dist.png", 
+							# "Distribuicao da clusterizacao local para "+graphName)
 
 def clust_global(g):
 	# # Clusterizacao global
@@ -121,16 +121,16 @@ def componentes(g):
 		sizes = hist
 		labels = [str(i) for i in range(len(sizes))]
 
-		plt.figure(figsize=(6,4))
-		plt.title('Tamanho das componentes conexas de '+graphName)
-		plt.gca().pie(sizes, autopct=my_pct(sizes), shadow=True, startangle=90)
-		plt.gca().axis('equal')
-		plt.savefig(graphDir+"/conected-components.png")
+	# 	plt.figure(figsize=(6,4))
+	# 	plt.title('Tamanho das componentes conexas de '+graphName)
+	# 	plt.gca().pie(sizes, autopct=my_pct(sizes), shadow=True, startangle=90)
+	# 	plt.gca().axis('equal')
+	# 	plt.savefig(graphDir+"/conected-components.png")
 
-	pos = graph_tool.draw.sfdp_layout(g, groups=comp)
-	graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-sfdp.png")
-	pos = graph_tool.draw.arf_layout(g, max_iter=0)
-	graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-arf.png")
+	# pos = graph_tool.draw.sfdp_layout(g, groups=comp)
+	# graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-sfdp.png")
+	# pos = graph_tool.draw.arf_layout(g, max_iter=0)
+	# graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-arf.png")
 
 def plotWeights(g, graphDir, name):
 	weight = g.edge_properties['weight']
@@ -153,23 +153,24 @@ def plotWeights(g, graphDir, name):
 
 def drawGraph(g, graphDir, name):
 	deg = g.degree_property_map("out")
-	deg.a =  (np.sqrt(deg.a) * 0.5 + 0.4)	
+	deg.a = np.log(deg.a)
 	pos = graph_tool.draw.sfdp_layout(g)
 	weight = g.edge_properties['weight']
 	control = g.new_edge_property("vector<double>")
-	graph_tool.draw.graph_draw(g, pos=pos, vertex_size=deg, vertex_fill_color=deg, vorder=deg,
-					vertex_text=g.vertex_index, output=graphDir+"/graph-draw-{}.pdf".format(name))
+	graph_tool.draw.graph_draw(g, pos=pos, vertex_fill_color=deg, vorder=deg,
+					output=graphDir+"/graph-draw-{}.png".format(name))
 
 
 if __name__ == '__main__':
 	# {Graph path: graph type}
 
 	graphsDir = "../Networks/cumulativeNetworks"
-	graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
-	# graphPaths = ["../Networks/CharacterNetworks/HP_allBooks-adj.gml"]
+	# graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
+	graphPaths = ["../Networks/cumulativeNetworks/HP_books1-2-3-4-5-6-7.gml"]
 
 	for graphPath in graphPaths:
-		graphName = graphPath.split('/')[-1].split('.')[0]
+		# graphName = graphPath.split('/')[-1].split('.')[0]
+		graphName = "HP_booksAll"
 		graphDir = os.path.join(os.path.dirname(os.path.abspath(graphPath)), "..", "..", "Images", graphName)
 		if not os.path.isdir(graphDir):
 			os.mkdir(graphDir)
@@ -180,15 +181,15 @@ if __name__ == '__main__':
 		edges = g.get_edges()
 		vertices = g.get_vertices()
 		print ('{:<15}: {:^8}, {:<8}: {:^8}'.format('Arestas', len(edges), 'Vertices', len(vertices)))
-		plotWeights(g, graphDir, graphName)
-		drawGraph(g, graphDir, graphName)
-		grau_medio(g)
-		betweeness(g)
-		katz(g)
-		pagerank(g)
-		clust_local(g)
-		clust_global(g)
-		componentes(g)
+		# plotWeights(g, graphDir, graphName)
+		# drawGraph(g, graphDir, graphName)
+		# grau_medio(g)
+		# betweeness(g)
+		# katz(g)
+		# pagerank(g)
+		# clust_local(g)
+		# clust_global(g)
+		# componentes(g)
 
 
 
@@ -200,59 +201,31 @@ if __name__ == '__main__':
 		# order_e = sorted(order_e)
 		# for e in order_e:
 		# 	print e
-		
 
 
-		# # # Grau total hist
-		# grau_hist = graph_tool.stats.vertex_hist(g, 'total')
-		# create_hist(grau_hist[0], "$Grau_{k}$", "PDF P[D=k]", graphDir+"/deg-dist.png", "Distribuicao do grau total para "+graphName)
-
-		# Caminhos minimos
-		# shortest_dist = graph_tool.topology.shortest_distance(g)
-		# total_dist = 0
-
-		# for v in g.vertices():
-		# 	dist = shortest_dist[v].a
-		# 	dist_mean = float(sum(dist))/len(dist)
-		# 	total_dist+=dist_mean
-		# 	# print '{}: {}'.format(g.vertex_properties['name'][v], dist_mean)
-		# print '\nTotal dist mean: {}\n\n'.format(total_dist/len([i for i in g.vertices()]))
-
-		# hp = [v for v in g.vertices() if "Harry Potter" in g.vertex_properties['name'][v]][0]
-
-		# excluded_chars = []		
-		# for v in g.vertices():
-		# 	if v.out_degree() > 190:
-		# 		print g.vertex_properties['name'][v], v.out_degree()
-		# 		excluded_chars.append(v)
-		# 		g.clear_vertex(v)
-
-
-
-
-		# total_size = len([i for i in g.vertices()])
-		# for i in range(total_size):
-		# 	drawGraph(g, graphDir, str(i))
-		# 	bigger = 0
-		# 	max_degree = -1
-		# 	for v in g.vertices():
-		# 		if v.out_degree() > max_degree:
-		# 			bigger = v
-		# 			max_degree = v.out_degree()
-		# 	print('\n')
-		# 	print (i, g.vertex_properties['name'][bigger], bigger.out_degree())
-		# 	g.remove_vertex(bigger)
-		# 	componentes(g)
-		# 	grau_medio(g)
-		# 	clust_global(g)
-		# 	clust_local(g)
-		# 	shortest_dist = graph_tool.topology.shortest_distance(g)
-		# 	total_dist = 0
-		# 	for v in g.vertices():
-		# 		dist = shortest_dist[v].a
-		# 		dist_mean = float(sum(dist))/len(dist)
-		# 		total_dist+=dist_mean
-		# 	print 'Total dist mean: {}'.format(total_dist/len([i for i in g.vertices()]))
+		total_size = len([i for i in g.vertices()])
+		for i in range(total_size):
+			drawGraph(g, graphDir, str(i))
+			bigger = 0
+			max_degree = -1
+			for v in g.vertices():
+				if v.out_degree() > max_degree:
+					bigger = v
+					max_degree = v.out_degree()
+			print('\n')
+			print (i, g.vertex_properties['name'][bigger], bigger.out_degree())
+			g.remove_vertex(bigger)
+			componentes(g)
+			grau_medio(g)
+			clust_global(g)
+			clust_local(g)
+			shortest_dist = graph_tool.topology.shortest_distance(g)
+			total_dist = 0
+			for v in g.vertices():
+				dist = shortest_dist[v].a
+				dist_mean = float(sum(dist))/len(dist)
+				total_dist+=dist_mean
+			print 'Total dist mean: {}'.format(total_dist/len([i for i in g.vertices()]))
 
 
 

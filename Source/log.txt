@@ -1,0 +1,1562 @@
+
+Graph          : HP_booksAll
+Arestas        :   2724  , Vertices:   192   
+
+
+(0, 'Harry Potter Mr', 186)
+Conected comp.:    1    , bigger  :  [191]  
+Grau total      -> Maximo  : 156.000  | minimo  :  1.000   | media   :  26.586  | dp :  1.918  
+Clust. global  :  0.369  , dp :  0.032  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.605   | dp :  0.014  
+Total dist mean: 1.94786327129
+
+
+(1, 'Ron Weasley', 156)
+Conected comp.:    1    , bigger  :  [190]  
+Grau total      -> Maximo  : 152.000  | minimo  :  1.000   | media   :  25.095  | dp :  1.793  
+Clust. global  :  0.367  , dp :  0.030  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.580   | dp :  0.014  
+Total dist mean: 1.96997229917
+
+
+(2, 'Hermione Granger', 152)
+Conected comp.:    1    , bigger  :  [189]  
+Grau total      -> Maximo  : 136.000  | minimo  :  1.000   | media   :  23.619  | dp :  1.662  
+Clust. global  :  0.366  , dp :  0.024  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.543   | dp :  0.014  
+Total dist mean: 2.03376165281
+
+
+(3, 'Albus Dumbledore', 136)
+Conected comp.:    1    , bigger  :  [188]  
+Grau total      -> Maximo  : 105.000  | minimo  :  1.000   | media   :  22.309  | dp :  1.545  
+Clust. global  :  0.362  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.511   | dp :  0.015  
+Total dist mean: 2.09449977365
+
+
+(4, 'Rubeus Hagrid', 105)
+Conected comp.:    2    , bigger  :  [186]  
+Grau total      -> Maximo  : 104.000  | minimo  :  0.000   | media   :  21.305  | dp :  1.469  
+Clust. global  :  0.352  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.493   | dp :  0.014  
+Total dist mean: 22844919.4965
+
+
+(5, 'Severus Snape', 104)
+Conected comp.:    2    , bigger  :  [185]  
+Grau total      -> Maximo  :  97.000  | minimo  :  0.000   | media   :  20.301  | dp :  1.389  
+Clust. global  :  0.343  , dp :  0.017  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.478   | dp :  0.014  
+Total dist mean: 22967077.7804
+
+
+(6, 'Lord Voldemort', 97)
+Conected comp.:    2    , bigger  :  [184]  
+Grau total      -> Maximo  :  91.000  | minimo  :  0.000   | media   :  19.362  | dp :  1.318  
+Clust. global  :  0.339  , dp :  0.015  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.457   | dp :  0.015  
+Total dist mean: 23090549.4933
+
+
+(7, 'Draco Malfoy', 91)
+Conected comp.:    2    , bigger  :  [183]  
+Grau total      -> Maximo  :  85.000  | minimo  :  0.000   | media   :  18.489  | dp :  1.247  
+Clust. global  :  0.331  , dp :  0.014  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.441   | dp :  0.015  
+Total dist mean: 23215355.9063
+
+
+(8, 'Minerva McGonagall', 85)
+Conected comp.:    3    , bigger  :  [181]  
+Grau total      -> Maximo  :  83.000  | minimo  :  0.000   | media   :  17.661  | dp :  1.180  
+Clust. global  :  0.321  , dp :  0.013  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.421   | dp :  0.015  
+Total dist mean: 46554785.2019
+
+
+(9, 'Neville Longbottom', 83)
+Conected comp.:    3    , bigger  :  [180]  
+Grau total      -> Maximo  :  70.000  | minimo  :  0.000   | media   :  16.857  | dp :  1.114  
+Clust. global  :  0.314  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.403   | dp :  0.015  
+Total dist mean: 46808455.1215
+
+
+(10, 'Sirius Black', 70)
+Conected comp.:    3    , bigger  :  [179]  
+Grau total      -> Maximo  :  66.000  | minimo  :  0.000   | media   :  16.188  | dp :  1.060  
+Clust. global  :  0.304  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.394   | dp :  0.016  
+Total dist mean: 47064904.3858
+
+
+(11, 'Remus Lupin R', 66)
+Conected comp.:    3    , bigger  :  [178]  
+Grau total      -> Maximo  :  61.000  | minimo  :  0.000   | media   :  15.556  | dp :  1.010  
+Clust. global  :  0.294  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.385   | dp :  0.016  
+Total dist mean: 47324178.9398
+
+
+(12, 'Fred Weasley', 61)
+Conected comp.:    3    , bigger  :  [177]  
+Grau total      -> Maximo  :  60.000  | minimo  :  0.000   | media   :  14.961  | dp :  0.959  
+Clust. global  :  0.278  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.376   | dp :  0.016  
+Total dist mean: 47586325.7251
+
+
+(13, 'Ginny Weasley', 60)
+Conected comp.:    3    , bigger  :  [176]  
+Grau total      -> Maximo  :  56.000  | minimo  :  0.000   | media   :  14.371  | dp :  0.912  
+Clust. global  :  0.268  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.365   | dp :  0.016  
+Total dist mean: 47851392.7441
+
+
+(14, 'Dolores Jane Umbridge', 56)
+Conected comp.:    3    , bigger  :  [175]  
+Grau total      -> Maximo  :  53.000  | minimo  :  0.000   | media   :  13.819  | dp :  0.873  
+Clust. global  :  0.264  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.352   | dp :  0.016  
+Total dist mean: 48119429.0879
+
+
+(15, 'Luna Lovegood', 53)
+Conected comp.:    3    , bigger  :  [174]  
+Grau total      -> Maximo  :  50.000  | minimo  :  0.000   | media   :  13.307  | dp :  0.836  
+Clust. global  :  0.261  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.336   | dp :  0.016  
+Total dist mean: 48390484.8727
+
+
+(16, 'George Weasley', 50)
+Conected comp.:    3    , bigger  :  [173]  
+Grau total      -> Maximo  :  48.000  | minimo  :  0.000   | media   :  12.811  | dp :  0.795  
+Clust. global  :  0.250  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.328   | dp :  0.016  
+Total dist mean: 48664611.4132
+
+
+(17, 'Madam Hooch', 48)
+Conected comp.:    3    , bigger  :  [172]  
+Grau total      -> Maximo  :  46.000  | minimo  :  0.000   | media   :  12.333  | dp :  0.760  
+Clust. global  :  0.246  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.321   | dp :  0.016  
+Total dist mean: 48941861.2058
+
+
+(18, 'Alastor Mad-Eye Moody', 46)
+Conected comp.:    3    , bigger  :  [171]  
+Grau total      -> Maximo  :  43.000  | minimo  :  0.000   | media   :  11.873  | dp :  0.722  
+Clust. global  :  0.235  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.313   | dp :  0.016  
+Total dist mean: 49222287.914
+
+
+(19, 'Arthur Weasley Mr', 43)
+Conected comp.:    3    , bigger  :  [170]  
+Grau total      -> Maximo  :  42.000  | minimo  :  0.000   | media   :  11.442  | dp :  0.689  
+Clust. global  :  0.225  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.305   | dp :  0.016  
+Total dist mean: 49505946.4638
+
+
+(20, 'Percy Weasley', 42)
+Conected comp.:    3    , bigger  :  [169]  
+Grau total      -> Maximo  :  40.000  | minimo  :  0.000   | media   :  11.018  | dp :  0.657  
+Clust. global  :  0.221  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.298   | dp :  0.017  
+Total dist mean: 49792893.0522
+
+
+(21, 'Cornelius Fudge', 40)
+Conected comp.:    3    , bigger  :  [168]  
+Grau total      -> Maximo  :  38.000  | minimo  :  0.000   | media   :  10.612  | dp :  0.629  
+Clust. global  :  0.219  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.286   | dp :  0.016  
+Total dist mean: 50083185.1791
+
+
+(22, 'Dean Thomas', 38)
+Conected comp.:    3    , bigger  :  [167]  
+Grau total      -> Maximo  :  37.000  | minimo  :  0.000   | media   :  10.225  | dp :  0.597  
+Clust. global  :  0.213  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.282   | dp :  0.017  
+Total dist mean: 50376881.6674
+
+
+(23, 'Molly Weasley Mrs', 37)
+Conected comp.:    3    , bigger  :  [166]  
+Grau total      -> Maximo  :  31.000  | minimo  :  0.000   | media   :  9.845   | dp :  0.565  
+Clust. global  :  0.204  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.277   | dp :  0.017  
+Total dist mean: 50674042.751
+
+
+(24, 'Horace Slughorn', 31)
+Conected comp.:    3    , bigger  :  [165]  
+Grau total      -> Maximo  :  29.000  | minimo  :  0.000   | media   :  9.533   | dp :  0.548  
+Clust. global  :  0.205  , dp :  0.008  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.276   | dp :  0.018  
+Total dist mean: 50974730.1405
+
+
+(25, 'Cedric Diggory', 29)
+Conected comp.:    3    , bigger  :  [164]  
+Grau total      -> Maximo  :  27.000  | minimo  :  0.000   | media   :  9.253   | dp :  0.524  
+Clust. global  :  0.196  , dp :  0.008  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.274   | dp :  0.018  
+Total dist mean: 51279006.8872
+
+
+(26, 'Tom Marvolo Riddle', 27)
+Conected comp.:    3    , bigger  :  [163]  
+Grau total      -> Maximo  :  25.000  | minimo  :  0.000   | media   :  8.994   | dp :  0.513  
+Clust. global  :  0.198  , dp :  0.008  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.264   | dp :  0.018  
+Total dist mean: 51586937.7446
+
+
+(27, 'Argus Filch', 25)
+Conected comp.:    3    , bigger  :  [162]  
+Grau total      -> Maximo  :  25.000  | minimo  :  0.000   | media   :  8.744   | dp :  0.500  
+Clust. global  :  0.196  , dp :  0.008  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.253   | dp :  0.018  
+Total dist mean: 51898588.8317
+
+
+(28, 'Bellatrix Lestrange', 25)
+Conected comp.:    3    , bigger  :  [161]  
+Grau total      -> Maximo  :  25.000  | minimo  :  0.000   | media   :  8.503   | dp :  0.489  
+Clust. global  :  0.195  , dp :  0.008  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.252   | dp :  0.018  
+Total dist mean: 52214028.0135
+
+
+(29, 'Helena Ravenclaw Grey Lady', 25)
+Conected comp.:    3    , bigger  :  [160]  
+Grau total      -> Maximo  :  23.000  | minimo  :  0.000   | media   :  8.247   | dp :  0.474  
+Clust. global  :  0.192  , dp :  0.008  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.249   | dp :  0.019  
+Total dist mean: 52533324.7849
+
+
+(30, 'Phineas Nigellus Black', 23)
+Conected comp.:    3    , bigger  :  [159]  
+Grau total      -> Maximo  :  22.000  | minimo  :  0.000   | media   :  8.025   | dp :  0.463  
+Clust. global  :  0.193  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.251   | dp :  0.019  
+Total dist mean: 52856550.3119
+
+
+(31, 'Fleur Delacour', 22)
+Conected comp.:    3    , bigger  :  [158]  
+Grau total      -> Maximo  :  22.000  | minimo  :  0.000   | media   :  7.812   | dp :  0.451  
+Clust. global  :  0.187  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.244   | dp :  0.019  
+Total dist mean: 53183777.5598
+
+
+(32, 'Seamus Finnigan', 22)
+Conected comp.:    3    , bigger  :  [157]  
+Grau total      -> Maximo  :  21.000  | minimo  :  0.000   | media   :  7.585   | dp :  0.435  
+Clust. global  :  0.185  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.240   | dp :  0.019  
+Total dist mean: 53515081.3187
+
+
+(33, 'Nymphadora Tonks', 21)
+Conected comp.:    3    , bigger  :  [156]  
+Grau total      -> Maximo  :  21.000  | minimo  :  0.000   | media   :  7.380   | dp :  0.425  
+Clust. global  :  0.185  , dp :  0.009  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.236   | dp :  0.019  
+Total dist mean: 53850538.2085
+
+
+(34, 'Vernon Dursley Mr', 21)
+Conected comp.:    3    , bigger  :  [155]  
+Grau total      -> Maximo  :  20.000  | minimo  :  0.000   | media   :  7.172   | dp :  0.410  
+Clust. global  :  0.186  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.234   | dp :  0.019  
+Total dist mean: 54190226.828
+
+
+(35, 'Crouch Mr Sr', 20)
+Conected comp.:    3    , bigger  :  [154]  
+Grau total      -> Maximo  :  20.000  | minimo  :  0.000   | media   :  6.962   | dp :  0.400  
+Clust. global  :  0.179  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.221   | dp :  0.019  
+Total dist mean: 54534227.7504
+
+
+(36, 'Filius Flitwick', 20)
+Conected comp.:    3    , bigger  :  [153]  
+Grau total      -> Maximo  :  19.000  | minimo  :  0.000   | media   :  6.748   | dp :  0.388  
+Clust. global  :  0.183  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.219   | dp :  0.020  
+Total dist mean: 54882623.5923
+
+
+(37, 'Bill Weasley', 19)
+Conected comp.:    3    , bigger  :  [152]  
+Grau total      -> Maximo  :  19.000  | minimo  :  0.000   | media   :  6.545   | dp :  0.379  
+Clust. global  :  0.186  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.217   | dp :  0.020  
+Total dist mean: 55235499.1166
+
+
+(38, 'Nearly Headless Nick', 19)
+Conected comp.:    3    , bigger  :  [151]  
+Grau total      -> Maximo  :  18.000  | minimo  :  0.000   | media   :  6.340   | dp :  0.364  
+Clust. global  :  0.184  , dp :  0.011  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.217   | dp :  0.020  
+Total dist mean: 55592941.2752
+
+
+(39, 'Goyle Sr Mr', 18)
+Conected comp.:    4    , bigger  :  [149]  
+Grau total      -> Maximo  :  17.000  | minimo  :  0.000   | media   :  6.158   | dp :  0.357  
+Clust. global  :  0.187  , dp :  0.011  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.217   | dp :  0.021  
+Total dist mean: 83653711.616
+
+
+(40, 'Angelina Johnson', 17)
+Conected comp.:    4    , bigger  :  [148]  
+Grau total      -> Maximo  :  17.000  | minimo  :  0.000   | media   :  5.974   | dp :  0.343  
+Clust. global  :  0.177  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.214   | dp :  0.021  
+Total dist mean: 84200274.1439
+
+
+(41, 'Dudley Dursley', 17)
+Conected comp.:    4    , bigger  :  [147]  
+Grau total      -> Maximo  :  16.000  | minimo  :  0.000   | media   :  5.800   | dp :  0.334  
+Clust. global  :  0.180  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.212   | dp :  0.021  
+Total dist mean: 84754024.3945
+
+
+(42, 'Gilderoy Lockhart', 16)
+Conected comp.:    5    , bigger  :  [145]  
+Grau total      -> Maximo  :  16.000  | minimo  :  0.000   | media   :  5.624   | dp :  0.323  
+Clust. global  :  0.179  , dp :  0.010  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.216   | dp :  0.022  
+Total dist mean: 113366555.753
+
+
+(43, 'Parvati Patil', 16)
+Conected comp.:    6    , bigger  :  [143]  
+Grau total      -> Maximo  :  15.000  | minimo  :  0.000   | media   :  5.459   | dp :  0.312  
+Clust. global  :  0.181  , dp :  0.011  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.216   | dp :  0.022  
+Total dist mean: 142159028.343
+
+
+(44, 'Cho Chang', 15)
+Conected comp.:    6    , bigger  :  [142]  
+Grau total      -> Maximo  :  14.000  | minimo  :  0.000   | media   :  5.293   | dp :  0.300  
+Clust. global  :  0.175  , dp :  0.011  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.212   | dp :  0.022  
+Total dist mean: 143105952.164
+
+
+(45, 'Viktor Krum', 14)
+Conected comp.:    6    , bigger  :  [141]  
+Grau total      -> Maximo  :  13.000  | minimo  :  0.000   | media   :  5.137   | dp :  0.290  
+Clust. global  :  0.169  , dp :  0.011  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.210   | dp :  0.022  
+Total dist mean: 144065569.708
+
+
+(46, 'Peeves', 13)
+Conected comp.:    6    , bigger  :  [140]  
+Grau total      -> Maximo  :  13.000  | minimo  :  0.000   | media   :  4.993   | dp :  0.283  
+Clust. global  :  0.169  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.199   | dp :  0.022  
+Total dist mean: 145038137.82
+
+
+(47, 'Pomona Sprout', 13)
+Conected comp.:    7    , bigger  :  [138]  
+Grau total      -> Maximo  :  12.000  | minimo  :  0.000   | media   :  4.847   | dp :  0.275  
+Clust. global  :  0.171  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.200   | dp :  0.022  
+Total dist mean: 174607325.248
+
+
+(48, 'Colin Creevey', 12)
+Conected comp.:    8    , bigger  :  [135]  
+Grau total      -> Maximo  :  12.000  | minimo  :  0.000   | media   :  4.727   | dp :  0.267  
+Clust. global  :  0.175  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.201   | dp :  0.022  
+Total dist mean: 232506668.26
+
+
+(49, 'Lee Jordan', 12)
+Conected comp.:    8    , bigger  :  [134]  
+Grau total      -> Maximo  :  12.000  | minimo  :  0.000   | media   :  4.592   | dp :  0.261  
+Clust. global  :  0.174  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.194   | dp :  0.022  
+Total dist mean: 234088926.872
+
+
+(50, 'Lily Potter Mrs', 12)
+Conected comp.:    9    , bigger  :  [132]  
+Grau total      -> Maximo  :  12.000  | minimo  :  0.000   | media   :  4.468   | dp :  0.253  
+Clust. global  :  0.175  , dp :  0.013  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.187   | dp :  0.021  
+Total dist mean: 264209298.546
+
+
+(51, 'Rita Skeeter', 12)
+Conected comp.:    10   , bigger  :  [130]  
+Grau total      -> Maximo  :  11.000  | minimo  :  0.000   | media   :  4.329   | dp :  0.244  
+Clust. global  :  0.164  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.186   | dp :  0.022  
+Total dist mean: 294512046.202
+
+
+(52, 'Buckbeak', 11)
+Conected comp.:    10   , bigger  :  [129]  
+Grau total      -> Maximo  :  11.000  | minimo  :  0.000   | media   :  4.201   | dp :  0.235  
+Clust. global  :  0.163  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.185   | dp :  0.022  
+Total dist mean: 296541919.791
+
+
+(53, 'Pigwidgeon Pig ', 11)
+Conected comp.:    10   , bigger  :  [128]  
+Grau total      -> Maximo  :  10.000  | minimo  :  0.000   | media   :  4.072   | dp :  0.225  
+Clust. global  :  0.163  , dp :  0.013  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.184   | dp :  0.022  
+Total dist mean: 298599913.837
+
+
+(54, 'Ernie Macmillan', 10)
+Conected comp.:    10   , bigger  :  [127]  
+Grau total      -> Maximo  :  10.000  | minimo  :  0.000   | media   :  3.956   | dp :  0.219  
+Clust. global  :  0.153  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.180   | dp :  0.022  
+Total dist mean: 300686615.506
+
+
+(55, 'Susan Bones', 10)
+Conected comp.:    13   , bigger  :  [122]  
+Grau total      -> Maximo  :  9.000   | minimo  :  0.000   | media   :  3.853   | dp :  0.219  
+Clust. global  :  0.156  , dp :  0.012  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.182   | dp :  0.023  
+Total dist mean: 417282454.799
+
+
+(56, 'Bathilda Bagshot', 9)
+Conected comp.:    14   , bigger  :  [120]  
+Grau total      -> Maximo  :  9.000   | minimo  :  0.000   | media   :  3.748   | dp :  0.215  
+Clust. global  :  0.150  , dp :  0.013  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.179   | dp :  0.023  
+Total dist mean: 448467644.195
+
+
+(57, 'Dobby', 9)
+Conected comp.:    14   , bigger  :  [119]  
+Grau total      -> Maximo  :  9.000   | minimo  :  0.000   | media   :  3.642   | dp :  0.206  
+Clust. global  :  0.149  , dp :  0.014  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.180   | dp :  0.023  
+Total dist mean: 451598257.178
+
+
+(58, 'Garrick Ollivander', 9)
+Conected comp.:    16   , bigger  :  [116]  
+Grau total      -> Maximo  :  9.000   | minimo  :  0.000   | media   :  3.534   | dp :  0.203  
+Clust. global  :  0.150  , dp :  0.014  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.176   | dp :  0.024  
+Total dist mean: 511346100.605
+
+
+(59, 'Kingsley Shacklebolt', 9)
+Conected comp.:    16   , bigger  :  [115]  
+Grau total      -> Maximo  :  8.000   | minimo  :  0.000   | media   :  3.424   | dp :  0.200  
+Clust. global  :  0.154  , dp :  0.015  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.161   | dp :  0.022  
+Total dist mean: 514932663.561
+
+
+(60, 'Fat Lady', 8)
+Conected comp.:    18   , bigger  :  [112]  
+Grau total      -> Maximo  :  8.000   | minimo  :  0.000   | media   :  3.328   | dp :  0.196  
+Clust. global  :  0.161  , dp :  0.015  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.162   | dp :  0.022  
+Total dist mean: 574881412.807
+
+
+(61, 'Fenrir Greyback', 8)
+Conected comp.:    18   , bigger  :  [111]  
+Grau total      -> Maximo  :  8.000   | minimo  :  0.000   | media   :  3.231   | dp :  0.190  
+Clust. global  :  0.159  , dp :  0.017  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.159   | dp :  0.023  
+Total dist mean: 578931097.523
+
+
+(62, 'Hedwig', 8)
+Conected comp.:    18   , bigger  :  [110]  
+Grau total      -> Maximo  :  8.000   | minimo  :  0.000   | media   :  3.132   | dp :  0.187  
+Clust. global  :  0.162  , dp :  0.017  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.151   | dp :  0.022  
+Total dist mean: 583037748.313
+
+
+(63, 'Vincent Crabbe', 8)
+Conected comp.:    18   , bigger  :  [109]  
+Grau total      -> Maximo  :  7.000   | minimo  :  0.000   | media   :  3.031   | dp :  0.185  
+Clust. global  :  0.160  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.139   | dp :  0.021  
+Total dist mean: 587202562.927
+
+
+(64, 'Amos Diggory Mr', 7)
+Conected comp.:    18   , bigger  :  [108]  
+Grau total      -> Maximo  :  7.000   | minimo  :  0.000   | media   :  2.961   | dp :  0.179  
+Clust. global  :  0.167  , dp :  0.019  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.144   | dp :  0.022  
+Total dist mean: 591426772.402
+
+
+(65, 'Firenze', 7)
+Conected comp.:    18   , bigger  :  [107]  
+Grau total      -> Maximo  :  7.000   | minimo  :  0.000   | media   :  2.873   | dp :  0.175  
+Clust. global  :  0.149  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.137   | dp :  0.022  
+Total dist mean: 595711642.3
+
+
+(66, 'Frank Longbottom Mr', 7)
+Conected comp.:    19   , bigger  :  [105]  
+Grau total      -> Maximo  :  7.000   | minimo  :  0.000   | media   :  2.800   | dp :  0.175  
+Clust. global  :  0.157  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.143   | dp :  0.023  
+Total dist mean: 628920654.01
+
+
+(67, 'Ignotus Peverell', 7)
+Conected comp.:    19   , bigger  :  [104]  
+Grau total      -> Maximo  :  7.000   | minimo  :  0.000   | media   :  2.726   | dp :  0.172  
+Clust. global  :  0.162  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.134   | dp :  0.022  
+Total dist mean: 633518852.35
+
+
+(68, 'Katie Bell', 7)
+Conected comp.:    20   , bigger  :  [102]  
+Grau total      -> Maximo  :  7.000   | minimo  :  0.000   | media   :  2.634   | dp :  0.168  
+Clust. global  :  0.157  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.131   | dp :  0.022  
+Total dist mean: 667140801.843
+
+
+(69, 'Morfin Gaunt', 7)
+Conected comp.:    21   , bigger  :   [96]  
+Grau total      -> Maximo  :  6.000   | minimo  :  0.000   | media   :  2.557   | dp :  0.165  
+Clust. global  :  0.155  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.134   | dp :  0.024  
+Total dist mean: 810572639.886
+
+
+(70, 'Anthony Goldstein', 6)
+Conected comp.:    22   , bigger  :   [92]  
+Grau total      -> Maximo  :  6.000   | minimo  :  0.000   | media   :  2.479   | dp :  0.162  
+Clust. global  :  0.145  , dp :  0.017  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.133   | dp :  0.024  
+Total dist mean: 897363908.942
+
+
+(71, 'Antonin Dolohov', 6)
+Conected comp.:    24   , bigger  :   [88]  
+Grau total      -> Maximo  :  6.000   | minimo  :  0.000   | media   :  2.400   | dp :  0.160  
+Clust. global  :  0.156  , dp :  0.017  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.140   | dp :  0.025  
+Total dist mean: 983070294.253
+
+
+(72, 'Kreacher', 6)
+Conected comp.:    24   , bigger  :   [87]  
+Grau total      -> Maximo  :  6.000   | minimo  :  0.000   | media   :  2.319   | dp :  0.154  
+Clust. global  :  0.163  , dp :  0.018  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.140   | dp :  0.025  
+Total dist mean: 989956449.712
+
+
+(73, 'Ludo Bagman', 6)
+Conected comp.:    25   , bigger  :   [84]  
+Grau total      -> Maximo  :  6.000   | minimo  :  0.000   | media   :  2.237   | dp :  0.149  
+Clust. global  :  0.142  , dp :  0.017  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.118   | dp :  0.023  
+Total dist mean: 1048756739.0
+
+
+(74, 'Pius Thicknesse', 6)
+Conected comp.:    25   , bigger  :   [83]  
+Grau total      -> Maximo  :  5.000   | minimo  :  0.000   | media   :  2.154   | dp :  0.142  
+Clust. global  :  0.138  , dp :  0.019  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.113   | dp :  0.023  
+Total dist mean: 1056093209.94
+
+
+(75, 'Blaise Zabini', 5)
+Conected comp.:    26   , bigger  :   [81]  
+Grau total      -> Maximo  :  5.000   | minimo  :  0.000   | media   :  2.086   | dp :  0.139  
+Clust. global  :  0.138  , dp :  0.020  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.104   | dp :  0.022  
+Total dist mean: 1089381942.06
+
+
+(76, 'Dumbledore Aberforth', 5)
+Conected comp.:    27   , bigger  :   [79]  
+Grau total      -> Maximo  :  5.000   | minimo  :  0.000   | media   :  2.017   | dp :  0.136  
+Clust. global  :  0.137  , dp :  0.021  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.101   | dp :  0.022  
+Total dist mean: 1122699582.0
+
+
+(77, 'Griphook', 5)
+Conected comp.:    28   , bigger  :   [63]  
+Grau total      -> Maximo  :  5.000   | minimo  :  0.000   | media   :  1.947   | dp :  0.132  
+Clust. global  :  0.123  , dp :  0.021  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.091   | dp :  0.021  
+Total dist mean: 1442892214.98
+
+
+(78, 'Hannah Abbott', 5)
+Conected comp.:    30   , bigger  :   [60]  
+Grau total      -> Maximo  :  5.000   | minimo  :  0.000   | media   :  1.876   | dp :  0.130  
+Clust. global  :  0.119  , dp :  0.021  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.094   | dp :  0.022  
+Total dist mean: 1492088255.54
+
+
+(79, 'Mary Cattermole', 5)
+Conected comp.:    31   , bigger  :   [60]  
+Grau total      -> Maximo  :  5.000   | minimo  :  0.000   | media   :  1.821   | dp :  0.129  
+Clust. global  :  0.128  , dp :  0.021  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.095   | dp :  0.022  
+Total dist mean: 1489748303.16
+
+
+(80, 'Peter Pettigrew', 5)
+Conected comp.:    31   , bigger  :   [59]  
+Grau total      -> Maximo  :  4.000   | minimo  :  0.000   | media   :  1.748   | dp :  0.124  
+Clust. global  :  0.126  , dp :  0.023  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.090   | dp :  0.023  
+Total dist mean: 1498584888.96
+
+
+(81, 'Charlie Weasley', 4)
+Conected comp.:    31   , bigger  :   [58]  
+Grau total      -> Maximo  :  4.000   | minimo  :  0.000   | media   :  1.691   | dp :  0.120  
+Clust. global  :  0.139  , dp :  0.025  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.092   | dp :  0.023  
+Total dist mean: 1507498026.35
+
+
+(82, 'Cormac McLaggen', 4)
+Conected comp.:    31   , bigger  :   [57]  
+Grau total      -> Maximo  :  4.000   | minimo  :  0.000   | media   :  1.633   | dp :  0.114  
+Clust. global  :  0.157  , dp :  0.026  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.093   | dp :  0.023  
+Total dist mean: 1516487486.58
+
+
+(83, 'Dawlish', 4)
+Conected comp.:    32   , bigger  :   [57]  
+Grau total      -> Maximo  :  4.000   | minimo  :  0.000   | media   :  1.574   | dp :  0.113  
+Clust. global  :  0.146  , dp :  0.027  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.086   | dp :  0.023  
+Total dist mean: 1513401543.89
+
+
+(84, 'Igor Karkaroff', 4)
+Conected comp.:    33   , bigger  :   [30]  
+Grau total      -> Maximo  :  4.000   | minimo  :  0.000   | media   :  1.514   | dp :  0.108  
+Clust. global  :  0.138  , dp :  0.030  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.081   | dp :  0.023  
+Total dist mean: 1815297994.97
+
+
+(85, 'Pansy Parkinson', 4)
+Conected comp.:    36   , bigger  :   [30]  
+Grau total      -> Maximo  :  4.000   | minimo  :  0.000   | media   :  1.453   | dp :  0.108  
+Clust. global  :  0.150  , dp :  0.033  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.088   | dp :  0.025  
+Total dist mean: 1871116492.59
+
+
+(86, 'Petunia Dursley Mrs', 4)
+Conected comp.:    38   , bigger  :   [21]  
+Grau total      -> Maximo  :  4.000   | minimo  :  0.000   | media   :  1.390   | dp :  0.103  
+Clust. global  :  0.138  , dp :  0.036  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.081   | dp :  0.025  
+Total dist mean: 1947441406.5
+
+
+(87, 'Zacharias Smith', 4)
+Conected comp.:    38   , bigger  :   [21]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.346   | dp :  0.101  
+Clust. global  :  0.114  , dp :  0.035  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.061   | dp :  0.022  
+Total dist mean: 1944568679.98
+
+
+(88, 'Alicia Spinnet', 3)
+Conected comp.:    39   , bigger  :   [21]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.301   | dp :  0.098  
+Clust. global  :  0.085  , dp :  0.034  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.045   | dp :  0.019  
+Total dist mean: 1964697547.47
+
+
+(89, 'Aragog', 3)
+Conected comp.:    41   , bigger  :   [21]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.255   | dp :  0.096  
+Clust. global  :  0.094  , dp :  0.037  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.046   | dp :  0.020  
+Total dist mean: 1987722753.12
+
+
+(90, 'Bob Ogden', 3)
+Conected comp.:    43   , bigger  :   [21]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.208   | dp :  0.094  
+Clust. global  :  0.103  , dp :  0.040  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.046   | dp :  0.020  
+Total dist mean: 1988543332.26
+
+
+(91, 'Elphias Doge', 3)
+Conected comp.:    45   , bigger  :   [21]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.160   | dp :  0.095  
+Clust. global  :  0.111  , dp :  0.043  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.047   | dp :  0.020  
+Total dist mean: 1990717341.04
+
+
+(92, 'Lucius Malfoy Mr', 3)
+Conected comp.:    47   , bigger  :   [21]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.111   | dp :  0.092  
+Clust. global  :  0.125  , dp :  0.048  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.047   | dp :  0.020  
+Total dist mean: 2002214627.97
+
+
+(93, 'Magorian', 3)
+Conected comp.:    48   , bigger  :   [21]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.061   | dp :  0.090  
+Clust. global  :  0.071  , dp :  0.041  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.024   | dp :  0.015  
+Total dist mean: 2005719316.54
+
+
+(94, 'Rufus Scrimgeour', 3)
+Conected comp.:    50   , bigger  :   [10]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  1.010   | dp :  0.087  
+Clust. global  :  0.083  , dp :  0.047  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.024   | dp :  0.015  
+Total dist mean: 2061894703.77
+
+
+(95, 'Sybill Trelawney', 3)
+Conected comp.:    52   , bigger  :   [10]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  0.958   | dp :  0.087  
+Clust. global  :  0.091  , dp :  0.050  
+Clust. local    -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.024   | dp :  0.015  
+Total dist mean: 2063131533.34
+
+
+(96, 'Terry Boot', 3)
+Conected comp.:    53   , bigger  :   [10]  
+Grau total      -> Maximo  :  3.000   | minimo  :  0.000   | media   :  0.905   | dp :  0.083  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2065391474.42
+
+
+(97, 'Travers', 3)
+Conected comp.:    55   , bigger  :   [9]   
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.851   | dp :  0.078  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2079919086.86
+
+
+(98, 'Albert Runcorn', 2)
+Conected comp.:    56   , bigger  :   [9]   
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.817   | dp :  0.077  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2084169006.05
+
+
+(99, 'Andromeda Tonks', 2)
+Conected comp.:    57   , bigger  :   [9]   
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.783   | dp :  0.075  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2087098355.45
+
+
+(100, 'Arabella Figg', 2)
+Conected comp.:    58   , bigger  : [4 4 4 4]
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.747   | dp :  0.072  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2098470917.96
+
+
+(101, 'Crookshanks', 2)
+Conected comp.:    59   , bigger  : [4 4 4] 
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.711   | dp :  0.071  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2100292031.07
+
+
+(102, 'Emmeline Vance', 2)
+Conected comp.:    60   , bigger  : [4 4 4] 
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.674   | dp :  0.071  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2101123376.39
+
+
+(103, 'Gellert Grindelwald', 2)
+Conected comp.:    61   , bigger  :  [4 4]  
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.636   | dp :  0.069  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2103114150.17
+
+
+(104, 'Merope Gaunt', 2)
+Conected comp.:    60   , bigger  :  [4 4]  
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.621   | dp :  0.067  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2102372020.66
+
+
+(105, 'Mrs Norris', 2)
+Conected comp.:    61   , bigger  :  [4 4]  
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.581   | dp :  0.067  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2103349315.7
+
+
+(106, 'Oliver Wood', 2)
+Conected comp.:    62   , bigger  :  [4 4]  
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.541   | dp :  0.066  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2104385359.29
+
+
+(107, 'Olympe Maxime', 2)
+Conected comp.:    63   , bigger  :   [4]   
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.500   | dp :  0.062  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2106700936.03
+
+
+(108, 'Poppy Pomfrey', 2)
+Conected comp.:    64   , bigger  :   [4]   
+Grau total      -> Maximo  :  2.000   | minimo  :  0.000   | media   :  0.458   | dp :  0.060  
+Clust. global  :  0.000  , dp :  0.000  
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2107894385.41
+
+
+(109, 'Scabior', 2)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.415   | dp :  0.054  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2110436040.96
+
+
+(110, 'Alecto Carrow', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.395   | dp :  0.054  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2110497569.87
+
+
+(111, 'Antioch Peverell', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.375   | dp :  0.054  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2110573771.82
+
+
+(112, 'Augustus Rookwood', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.354   | dp :  0.054  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2110665709.14
+
+
+(113, 'Bane', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.333   | dp :  0.053  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2110774524.83
+
+
+(114, 'Beedle Bard', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.312   | dp :  0.053  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2110901449.61
+
+
+(115, 'Bertha Jorkins', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.289   | dp :  0.052  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2111047809.5
+
+
+(116, 'Bloody Baron', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.267   | dp :  0.051  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2111215034.3
+
+
+(117, 'Dennis Creevey', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.243   | dp :  0.050  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2111404666.81
+
+
+(118, 'Dirk Cresswell', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.219   | dp :  0.048  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2111618373.11
+
+
+(119, 'Errol', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.194   | dp :  0.047  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2111857953.78
+
+
+(120, 'Fluffy', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.169   | dp :  0.044  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2112125356.44
+
+
+(121, 'Hepzibah Smith', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.143   | dp :  0.042  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2112422689.5
+
+
+(122, 'James Potter', 1)
+Conected comp.:    65   , bigger  : [2 2 2 2]
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.116   | dp :  0.039  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2112752237.46
+
+
+(123, 'Madam Malkin', 1)
+Conected comp.:    65   , bigger  : [2 2 2] 
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.088   | dp :  0.034  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2113116477.91
+
+
+(124, 'Marjorie Marge Dursley', 1)
+Conected comp.:    65   , bigger  :  [2 2]  
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.060   | dp :  0.029  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2113518100.35
+
+
+(125, 'Michael Corner', 1)
+Conected comp.:    65   , bigger  :   [2]   
+Grau total      -> Maximo  :  1.000   | minimo  :  0.000   | media   :  0.030   | dp :  0.021  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2113960027.17
+
+
+(126, 'Rabastan Lestrange', 1)
+Conected comp.:    65   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2114445437.05
+
+
+(127, 'Alice Longbottom Mrs', 0)
+Conected comp.:    64   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2113929215.02
+
+
+(128, 'Amelia Bones', 0)
+Conected comp.:    63   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2113396604.98
+
+
+(129, 'Amycus Carrow', 0)
+Conected comp.:    62   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2112846813.98
+
+
+(130, 'Astoria Greengrass', 0)
+Conected comp.:    61   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2112278997.05
+
+
+(131, 'Augusta Longbottom', 0)
+Conected comp.:    60   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2111692252.88
+
+
+(132, 'Aurora Sinistra', 0)
+Conected comp.:    59   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2111085619.08
+
+
+(133, 'Bogrod', 0)
+Conected comp.:    58   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2110458066.88
+
+
+(134, 'Cadmus Peverell', 0)
+Conected comp.:    57   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2109808495.3
+
+
+(135, 'Cadogan', 0)
+Conected comp.:    56   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2109135724.73
+
+
+(136, 'Charity Burbage', 0)
+Conected comp.:    55   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2108438489.78
+
+
+(137, 'Cuthbert Binns', 0)
+Conected comp.:    54   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2107715431.31
+
+
+(138, 'Dedalus Diggle', 0)
+Conected comp.:    53   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2106965087.62
+
+
+(139, 'Demelza Robins', 0)
+Conected comp.:    52   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2106185884.56
+
+
+(140, 'Fang', 0)
+Conected comp.:    51   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2105376124.51
+
+
+(141, 'Fat Friar', 0)
+Conected comp.:    50   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2104533974.06
+
+
+(142, 'Fawkes', 0)
+Conected comp.:    49   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2103657450.12
+
+
+(143, 'Florean Fortescue', 0)
+Conected comp.:    48   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2102744404.35
+
+
+(144, 'Frank Bryce', 0)
+Conected comp.:    47   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2101792505.57
+
+
+(145, 'Gabrielle Delacour', 0)
+Conected comp.:    46   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2100799219.89
+
+
+(146, 'Graham Montague', 0)
+Conected comp.:    45   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2099761788.18
+
+
+(147, 'Grawp', 0)
+Conected comp.:    44   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2098677200.48
+
+
+(148, 'Gregorovitch', 0)
+Conected comp.:    43   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2097542166.84
+
+
+(149, 'Gregory Goyle', 0)
+Conected comp.:    42   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2096353083.98
+
+
+(150, 'Griselda Marchbanks', 0)
+Conected comp.:    41   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2095105997.07
+
+
+(151, 'Hokey', 0)
+Conected comp.:    40   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2093796555.82
+
+
+(152, 'Hugo Weasley', 0)
+Conected comp.:    39   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2092419963.74
+
+
+(153, 'Irma Pince', 0)
+Conected comp.:    38   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2090970919.45
+
+
+(154, 'Justin Finch-Fletchley', 0)
+Conected comp.:    37   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2089443548.43
+
+
+(155, 'Lavender Brown', 0)
+Conected comp.:    36   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2087831323.47
+
+
+(156, 'Mafalda Hopkirk', 0)
+Conected comp.:    35   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2086126971.37
+
+
+(157, 'Marcus Flint', 0)
+Conected comp.:    34   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2084322363.26
+
+
+(158, 'Marietta Edgecombe', 0)
+Conected comp.:    33   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2082408384.97
+
+
+(159, 'Marvolo Gaunt', 0)
+Conected comp.:    32   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2080374783.03
+
+
+(160, 'Millicent Bulstrode', 0)
+Conected comp.:    31   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2078209980.97
+
+
+(161, 'Moaning Myrtle', 0)
+Conected comp.:    30   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2075900858.77
+
+
+(162, 'Mrs Cole', 0)
+Conected comp.:    29   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2073432486.76
+
+
+(163, 'Mundungus Fletcher', 0)
+Conected comp.:    28   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2070787802.46
+
+
+(164, 'Muriel', 0)
+Conected comp.:    27   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2067947215.63
+
+
+(165, 'Nagini', 0)
+Conected comp.:    26   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2064888122.12
+
+
+(166, 'Narcissa Malfoy', 0)
+Conected comp.:    25   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2061584301.12
+
+
+(167, 'Newt Scamander', 0)
+Conected comp.:    24   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2058005161.71
+
+
+(168, 'Norbert Norberta', 0)
+Conected comp.:    23   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2054114792.78
+
+
+(169, 'Padma Patil', 0)
+Conected comp.:    22   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2049870753.95
+
+
+(170, 'Penelope Clearwater', 0)
+Conected comp.:    21   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2045222520.95
+
+
+(171, 'Quirinus Quirrell', 0)
+Conected comp.:    20   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2040109464.65
+
+
+(172, 'Reginald Cattermole', 0)
+Conected comp.:    19   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2034458191.89
+
+
+(173, 'Rodolphus Lestrange', 0)
+Conected comp.:    18   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2028178999.94
+
+
+(174, 'Roger Davies', 0)
+Conected comp.:    17   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2021161079.53
+
+
+(175, 'Romilda Vane', 0)
+Conected comp.:    16   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2013265919.06
+
+
+(176, 'Ronan', 0)
+Conected comp.:    15   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 2004318070.53
+
+
+(177, 'Rosmerta', 0)
+Conected comp.:    14   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1994091957.93
+
+
+(178, 'Scabbers', 0)
+Conected comp.:    13   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1982292597.23
+
+
+(179, 'Septima Vector', 0)
+Conected comp.:    12   , bigger  : [1 1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1968526676.42
+
+
+(180, 'Stan Shunpike', 0)
+Conected comp.:    11   , bigger  : [1 1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1952257860.91
+
+
+(181, 'Sturgis Podmore', 0)
+Conected comp.:    10   , bigger  : [1 1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1932735282.3
+
+
+(182, 'Ted Tonks', 0)
+Conected comp.:    9    , bigger  : [1 1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1908874352.89
+
+
+(183, 'Teddy Lupin', 0)
+Conected comp.:    8    , bigger  : [1 1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1879048191.12
+
+
+(184, 'Theodore Nott', 0)
+Conected comp.:    7    , bigger  : [1 1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1840700268.86
+
+
+(185, 'Trevor', 0)
+Conected comp.:    6    , bigger  : [1 1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1789569705.83
+
+
+(186, 'Walden Macnair', 0)
+Conected comp.:    5    , bigger  : [1 1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1717986917.6
+
+
+(187, 'Wilhelmina Grubbly-Plank', 0)
+Conected comp.:    4    , bigger  : [1 1 1 1]
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1610612735.25
+
+
+(188, 'Wilky Twycross', 0)
+Conected comp.:    3    , bigger  : [1 1 1] 
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1431655764.67
+
+
+(189, 'Winky', 0)
+Conected comp.:    2    , bigger  :  [1 1]  
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 1073741823.5
+
+
+(190, 'Xenophilius Lovegood Mr', 0)
+Conected comp.:    1    , bigger  :   [1]   
+Grau total      -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Clust. global  :   nan   , dp :   nan   
+Clust. local    -> Maximo  :  0.000   | minimo  :  0.000   | media   :  0.000   | dp :  0.000  
+Total dist mean: 0.0
+
+
+(191, 'Yaxley', 0)
