@@ -165,12 +165,12 @@ if __name__ == '__main__':
 	# {Graph path: graph type}
 
 	graphsDir = "../Networks/cumulativeNetworks"
-	# graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
-	graphPaths = ["../Networks/cumulativeNetworks/HP_books1-2-3-4-5-6-7.gml"]
+	graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
+	# graphPaths = ["../Networks/cumulativeNetworks/HP_books1-2-3-4-5-6-7.gml"]
 
 	for graphPath in graphPaths:
-		# graphName = graphPath.split('/')[-1].split('.')[0]
-		graphName = "HP_booksAll-statistics"
+		graphName = graphPath.split('/')[-1].split('.')[0]
+		# graphName = "HP_booksAll-statistics"
 		graphDir = os.path.join(os.path.dirname(os.path.abspath(graphPath)), "..", "..", "Images", graphName)
 		if not os.path.isdir(graphDir):
 			os.mkdir(graphDir)
@@ -182,7 +182,7 @@ if __name__ == '__main__':
 		vertices = g.get_vertices()
 		print ('{:<15}: {:^8}, {:<8}: {:^8}'.format('Arestas', len(edges), 'Vertices', len(vertices)))
 		# plotWeights(g, graphDir, graphName)
-		# drawGraph(g, graphDir, graphName)
+		drawGraph(g, graphDir, graphName)
 		# grau_medio(g)
 		# betweeness(g)
 		# katz(g)
@@ -191,12 +191,12 @@ if __name__ == '__main__':
 		# clust_global(g)
 		# componentes(g)
 
-		edges = []
-		for e in g.edges():
-			edges.append([g.edge_properties['weight'][e], g.vertex_properties['name'][e.source()], g.vertex_properties['name'][e.target()]])
-		edges = sorted(edges)
-		for e in edges:
-			print e
+		# edges = []
+		# for e in g.edges():
+		# 	edges.append([g.edge_properties['weight'][e], g.vertex_properties['name'][e.source()], g.vertex_properties['name'][e.target()]])
+		# edges = sorted(edges)
+		# for e in edges:
+		# 	print e
 
 
 		# order_e = []

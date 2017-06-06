@@ -15,15 +15,22 @@ if __name__ == '__main__':
 				grau = float(line.split('media')[-1].split('|')[0].split(' ')[5])
 				grau_medio.append(grau)
 
-
+	total_vertices = 192
 	plt.figure(figsize=(6,4))
-	plt.title("Tamanho da Maior Componente Conexa")
+	plt.title("Porcentagem de Vertices na Maior Componente Conexa")
 	myX = np.arange(len(comp_conx))
-	plt.gca().plot(myX, comp_conx, 'b+')
+	myY = []
+	for c in comp_conx:
+		total_vertices-=1
+		if c > 1.0:
+			myY.append(float(c)/(total_vertices))
+		else:
+			myY.append(0.0)
+	plt.gca().plot(myX, myY, 'b+')
 	plt.xlabel("Iteracao")
-	plt.ylabel("Tamanho da Componente")
+	plt.ylabel("Porcentagem de vertices")
 	plt.tight_layout()
-	plt.savefig("componenteConexa.pdf")
+	plt.savefig("componenteConexa.png")
 
 
 	plt.figure(figsize=(6,4))
@@ -33,4 +40,4 @@ if __name__ == '__main__':
 	plt.xlabel("Iteracao")
 	plt.ylabel("Grau Medio")
 	plt.tight_layout()
-	plt.savefig("grauMedio.pdf")
+	plt.savefig("grauMedio.png")
