@@ -1,0 +1,199 @@
+
+Graph          : HP_booksAll-statistics
+Arestas        :   2724  , Vertices:   192   
+Alastor Mad-Eye Moody: 1.68229166667
+Albert Runcorn: 1.96875
+Albus Dumbledore: 1.28125
+Alecto Carrow: 1.96354166667
+Alice Longbottom Mrs: 1.96875
+Alicia Spinnet: 1.91145833333
+Amelia Bones: 1.984375
+Amos Diggory Mr: 1.88541666667
+Amycus Carrow: 1.92708333333
+Andromeda Tonks: 1.97916666667
+Angelina Johnson: 1.84375
+Anthony Goldstein: 1.95833333333
+Antioch Peverell: 2.890625
+Antonin Dolohov: 1.88020833333
+Arabella Figg: 1.92708333333
+Aragog: 1.953125
+Argus Filch: 1.76041666667
+Arthur Weasley Mr: 1.69270833333
+Astoria Greengrass: 2.015625
+Augusta Longbottom: 2.36458333333
+Augustus Rookwood: 1.9375
+Aurora Sinistra: 1.94791666667
+Bane: 1.96354166667
+Bathilda Bagshot: 1.921875
+Beedle Bard: 1.95833333333
+Bellatrix Lestrange: 1.78125
+Bertha Jorkins: 1.92708333333
+Bill Weasley: 1.77083333333
+Blaise Zabini: 1.91145833333
+Bloody Baron: 1.953125
+Bob Ogden: 1.9375
+Bogrod: 1.97916666667
+Buckbeak: 1.84895833333
+Cadmus Peverell: 2.93229166667
+Cadogan: 1.96875
+Cedric Diggory: 1.77083333333
+Charity Burbage: 1.99479166667
+Charlie Weasley: 1.90104166667
+Cho Chang: 1.8125
+Colin Creevey: 1.85416666667
+Cormac McLaggen: 1.91666666667
+Cornelius Fudge: 1.69270833333
+Crookshanks: 1.85416666667
+Crouch Mr Sr: 1.80729166667
+Cuthbert Binns: 1.89583333333
+Dawlish: 1.92708333333
+Dean Thomas: 1.72395833333
+Dedalus Diggle: 1.94270833333
+Demelza Robins: 1.96354166667
+Dennis Creevey: 1.94791666667
+Dirk Cresswell: 1.96354166667
+Dobby: 1.796875
+Dolores Jane Umbridge: 1.63541666667
+Draco Malfoy: 1.50520833333
+Dudley Dursley: 1.84895833333
+Dumbledore Aberforth: 1.86979166667
+Elphias Doge: 1.9375
+Emmeline Vance: 2.11458333333
+Ernie Macmillan: 1.828125
+Errol: 1.96354166667
+Fang: 1.921875
+Fat Friar: 1.96875
+Fat Lady: 1.828125
+Fawkes: 1.91666666667
+Fenrir Greyback: 1.86458333333
+Filius Flitwick: 1.78125
+Firenze: 1.90625
+Fleur Delacour: 1.78645833333
+Florean Fortescue: 1.953125
+Fluffy: 1.93229166667
+Frank Bryce: 1.98958333333
+Frank Longbottom Mr: 1.93229166667
+Fred Weasley: 1.625
+Gabrielle Delacour: 1.98958333333
+Garrick Ollivander: 1.85416666667
+Gellert Grindelwald: 1.94791666667
+George Weasley: 1.66666666667
+Gilderoy Lockhart: 1.80208333333
+Ginny Weasley: 1.625
+Goyle Sr Mr: 1.82291666667
+Graham Montague: 1.91145833333
+Grawp: 1.93229166667
+Gregorovitch: 1.953125
+Gregory Goyle: 1.97916666667
+Griphook: 1.890625
+Griselda Marchbanks: 1.94791666667
+Hannah Abbott: 1.890625
+Harry Potter Mr: 1.03125
+Hedwig: 1.82291666667
+Helena Ravenclaw Grey Lady: 1.765625
+Hepzibah Smith: 1.97395833333
+Hermione Granger: 1.1875
+Hokey: 1.97395833333
+Horace Slughorn: 1.75
+Hugo Weasley: 2.07291666667
+Ignotus Peverell: 1.953125
+Igor Karkaroff: 1.890625
+Irma Pince: 1.97395833333
+James Potter: 1.875
+Justin Finch-Fletchley: 1.90104166667
+Katie Bell: 1.83854166667
+Kingsley Shacklebolt: 1.81770833333
+Kreacher: 1.84375
+Lavender Brown: 1.84895833333
+Lee Jordan: 1.83333333333
+Lily Potter Mrs: 1.84895833333
+Lord Voldemort: 1.46875
+Lucius Malfoy Mr: 1.83854166667
+Ludo Bagman: 1.82291666667
+Luna Lovegood: 1.66145833333
+Madam Hooch: 1.671875
+Madam Malkin: 1.96354166667
+Mafalda Hopkirk: 1.97916666667
+Magorian: 1.96875
+Marcus Flint: 1.91666666667
+Marietta Edgecombe: 1.94791666667
+Marjorie Marge Dursley: 1.97916666667
+Marvolo Gaunt: 1.96354166667
+Mary Cattermole: 1.95833333333
+Merope Gaunt: 1.97395833333
+Michael Corner: 1.9375
+Millicent Bulstrode: 1.95833333333
+Minerva McGonagall: 1.52083333333
+Moaning Myrtle: 1.91145833333
+Molly Weasley Mrs: 1.70833333333
+Morfin Gaunt: 1.9375
+Mrs Cole: 1.99479166667
+Mrs Norris: 1.90104166667
+Mundungus Fletcher: 1.890625
+Muriel: 1.91666666667
+Nagini: 1.94270833333
+Narcissa Malfoy: 1.9375
+Nearly Headless Nick: 1.77604166667
+Neville Longbottom: 1.53645833333
+Newt Scamander: 2.0
+Norbert Norberta: 1.95833333333
+Nymphadora Tonks: 1.78125
+Oliver Wood: 1.84895833333
+Olympe Maxime: 1.88020833333
+Padma Patil: 1.93229166667
+Pansy Parkinson: 1.88541666667
+Parvati Patil: 1.828125
+Peeves: 1.84375
+Penelope Clearwater: 1.96875
+Percy Weasley: 1.69270833333
+Peter Pettigrew: 1.86979166667
+Petunia Dursley Mrs: 1.86458333333
+Phineas Nigellus Black: 1.79166666667
+Pigwidgeon Pig : 1.875
+Pius Thicknesse: 1.9375
+Pomona Sprout: 1.83854166667
+Poppy Pomfrey: 1.83333333333
+Quirinus Quirrell: 1.890625
+Rabastan Lestrange: 2.0
+Reginald Cattermole: 2.94791666667
+Remus Lupin R: 1.61458333333
+Rita Skeeter: 1.83333333333
+Rodolphus Lestrange: 2.08854166667
+Roger Davies: 1.9375
+Romilda Vane: 1.96875
+Ron Weasley: 1.18229166667
+Ronan: 1.99479166667
+Rosmerta: 1.921875
+Rubeus Hagrid: 1.4375
+Rufus Scrimgeour: 1.859375
+Scabbers: 1.88020833333
+Scabior: 1.95833333333
+Seamus Finnigan: 1.79166666667
+Septima Vector: 1.99479166667
+Severus Snape: 1.43229166667
+Sirius Black: 1.59895833333
+Stan Shunpike: 1.90625
+Sturgis Podmore: 1.93229166667
+Susan Bones: 1.93229166667
+Sybill Trelawney: 1.81770833333
+Ted Tonks: 1.921875
+Teddy Lupin: 1.97916666667
+Terry Boot: 1.90625
+Theodore Nott: 1.96354166667
+Tom Marvolo Riddle: 1.80729166667
+Travers: 1.94270833333
+Trevor: 1.98958333333
+Vernon Dursley Mr: 1.80208333333
+Viktor Krum: 1.81770833333
+Vincent Crabbe: 1.84375
+Walden Macnair: 1.93229166667
+Wilhelmina Grubbly-Plank: 2.01041666667
+Wilky Twycross: 1.96875
+Winky: 1.91145833333
+Xenophilius Lovegood Mr: 1.93229166667
+Yaxley: 1.91666666667
+Zacharias Smith: 1.88541666667
+
+Total dist mean: 1.8798828125
+
+
