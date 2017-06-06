@@ -17,27 +17,6 @@ def getHighestVertex (graph, vertices):
 			highest = index
 	return highest
 
-# def drawGraph(oldG, oldSize, index, graphicIndex):
-# 	g = graph_tool.Graph(oldG)
-# 	notUsedCharacters = [i for i in g.vertices() if g.vertex(i).in_degree()+g.vertex(i).out_degree() == 0]
-# 	g.remove_vertex(notUsedCharacters)
-# 	namesProp = oldG.vertex_properties['name'].a
-# 	newNamesProp = [n for n in namesProp if namesProp.index(n) not in ]
-
-# 	graphSize = len([i for i in g.vertices()])
-# 	if graphSize > oldSize:
-# 		deg = g.degree_property_map("total")
-# 		names = g.vertex_properties['name']
-# 		deg.a = 4 * (np.sqrt(deg.a) * 0.5 + 0.4)
-# 		pos = graph_tool.draw.sfdp_layout(g)
-# 		control = g.new_edge_property("vector<double>")
-# 		for e in g.edges():
-# 			d = np.sqrt(sum((pos[e.source()].a - pos[e.target()].a) ** 2)) / 5
-# 			control[e] = [0.3, d, 0.7, d]
-# 		graph_tool.draw.graph_draw(g, pos=pos, vertex_size=deg, vertex_fill_color=deg, vorder=deg, vertex_text=names,
-# 						output="../Images/GraphSelfies/HP_book{}-draw{}.pdf".format(index, graphicIndex))
-# 	return graphSize
-
 if __name__ == '__main__':
 	# Reading characters list
 	f=open('../Lib/parsedHPcharacters-final.txt')
@@ -64,38 +43,32 @@ if __name__ == '__main__':
 	booksDir = "../Books/HarryPotter"
 	booksPaths = [os.path.join(booksDir, f) for f in os.listdir(booksDir)]
 	exceptions = ['Mr','Mrs','Sr','Jr']
+	pageCharacters = []
 	for book in booksPaths:
 		g = graph_tool.Graph(blank_graph)
-		k = booksPaths.index(book)
-		toPrint = False
-		# graficIndex = 0
-		# graphSize = 0
 		usedCharacters = []
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			last_word = False
-			pageCharacters = []
+			lineCount = 0
 			for line in bookFile:
 				if 'Page |' in line: # New page
-					# Removing repeated characters
-					pageCharacters = np.unique(pageCharacters)
-					usedCharacters+=pageCharacters.tolist()
+					usedCharacters+=pageCharacters
 					for i, c1 in enumerate(pageCharacters):
-						for c2 in pageCharacters[(i+1):]:
-							v1 = g.vertex(c1)
-							v2 = g.vertex(c2)
-							myEdge = g.edge(v1, v2)
-							if myEdge == None:	# New edge
-								newEdge = g.add_edge(v1, v2)
-								g.edge_properties['weight'][newEdge] = 1
-							else:
-								g.edge_properties['weight'][myEdge] += 1
-						# graphSize = drawGraph(g, graphSize, k+1, graficIndex)
-						# if graphSize > 5:
-						# 	break
-						# graficIndex+=1
-					pageCharacters = []
+						if i+1 >= len(pageCharacters):
+							break
+						v1 = g.vertex(c1)
+						c2 = pageCharacters[i+1]
+						v2 = g.vertex(c2)
+						myEdge = g.edge(v1, v2)
+						if myEdge == None:	# New edge
+							newEdge = g.add_edge(v1, v2)
+							g.edge_properties['weight'][newEdge] = 1
+						else:
+							g.edge_properties['weight'][myEdge] += 1
+					pageCharacters = [pageCharacters[-1]]
 
 				else:
+					lineCount+=1
 					lineWords = re.compile('\w+-*').findall(line)
 					for word in lineWords:
 						if word[0].isupper():
@@ -108,20 +81,20 @@ if __name__ == '__main__':
 										indexes.append(characters.index(char))
 								if count == 0: # In case they don't match
 									if last_word not in exceptions:
-										pageCharacters.append(highest)
-										last_indexes = []
-										last_word = False
+										highest = getHighestVertex(g,last_indexes)
+										if pageCharacters[-1] != highest:
+											pageCharacters.append(highest)
 									for char in characters:
 										if word in char:
 											count+=1
 											indexes.append(characters.index(char))
-							else: # Check if word matches a character
+							else:
 								for char in characters:
 									if word in char:
 										count+=1
 										indexes.append(characters.index(char))
 
-							if word in exceptions or count > 1:
+							if count > 1: #Conflito
 								last_word = word
 								last_indexes = indexes
 								indexes = []
@@ -130,11 +103,16 @@ if __name__ == '__main__':
 								last_indexes = []
 
 							if len(indexes) == 1:
-								if indexes[0] not in pageCharacters:
+								if len(pageCharacters)==0:
+									pageCharacters.append(indexes[0])
+								elif indexes[0] != pageCharacters[-1]:
 									pageCharacters.append(indexes[0])
 						else:
 							if len(last_indexes) == 1:
-								pageCharacters.append(last_indexes[0])
+								if len(pageCharacters)==0:
+									pageCharacters.append(last_indexes[0])
+								elif indexes[0] != pageCharacters[-1]:
+									pageCharacters.append(last_indexes[0])
 							elif len(last_indexes) > 1:
 								highest = getHighestVertex(g,last_indexes)
 								pageCharacters.append(highest)
@@ -149,5 +127,6 @@ if __name__ == '__main__':
 				v = [i for i in g.vertices() if g.vertex_properties['name'][i] == c]
 				g.remove_vertex(v)
 
+		k = booksPaths.index(book)
 		g.save('../Networks/CharacterNetworks/HP_book{}.gml'.format(k+1))
 

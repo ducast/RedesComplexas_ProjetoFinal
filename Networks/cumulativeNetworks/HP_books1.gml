@@ -1,363 +1,363 @@
 graph [
    node [
       id 0
-      name "Albus Dumbledore"
+      name "Alastor Mad-Eye Moody"
    ]
    node [
       id 1
-      name "Alicia Spinnet"
+      name "Albert Runcorn"
    ]
    node [
       id 2
-      name "Amelia Bones"
+      name "Albus Dumbledore"
    ]
    node [
       id 3
-      name "Amos Diggory Mr"
+      name "Alecto Carrow"
    ]
    node [
       id 4
-      name "Angelina Johnson"
+      name "Alice Longbottom Mrs"
    ]
    node [
       id 5
-      name "Arabella Figg"
+      name "Alicia Spinnet"
    ]
    node [
       id 6
-      name "Argus Filch"
+      name "Amelia Bones"
    ]
    node [
       id 7
-      name "Arthur Weasley Mr"
+      name "Amos Diggory Mr"
    ]
    node [
       id 8
-      name "Bane"
+      name "Amycus Carrow"
    ]
    node [
       id 9
-      name "Bathilda Bagshot"
+      name "Andromeda Tonks"
    ]
    node [
       id 10
-      name "Bill Weasley"
+      name "Angelina Johnson"
    ]
    node [
       id 11
-      name "Blaise Zabini"
+      name "Anthony Goldstein"
    ]
    node [
       id 12
-      name "Bloody Baron"
+      name "Antioch Peverell"
    ]
    node [
       id 13
-      name "Charlie Weasley"
+      name "Antonin Dolohov"
    ]
    node [
       id 14
-      name "Cornelius Fudge"
+      name "Arabella Figg"
    ]
    node [
       id 15
-      name "Cuthbert Binns"
+      name "Aragog"
    ]
    node [
       id 16
-      name "Dean Thomas"
+      name "Argus Filch"
    ]
    node [
       id 17
-      name "Dedalus Diggle"
+      name "Arthur Weasley Mr"
    ]
    node [
       id 18
-      name "Dennis Creevey"
+      name "Astoria Greengrass"
    ]
    node [
       id 19
-      name "Draco Malfoy"
+      name "Augusta Longbottom"
    ]
    node [
       id 20
-      name "Dudley Dursley"
+      name "Augustus Rookwood"
    ]
    node [
       id 21
-      name "Fang"
+      name "Aurora Sinistra"
    ]
    node [
       id 22
-      name "Fat Friar"
+      name "Bane"
    ]
    node [
       id 23
-      name "Fat Lady"
+      name "Bathilda Bagshot"
    ]
    node [
       id 24
-      name "Filius Flitwick"
+      name "Beedle Bard"
    ]
    node [
       id 25
-      name "Firenze"
+      name "Bellatrix Lestrange"
    ]
    node [
       id 26
-      name "Fluffy"
+      name "Bertha Jorkins"
    ]
    node [
       id 27
-      name "Frank Longbottom Mr"
+      name "Bill Weasley"
    ]
    node [
       id 28
-      name "Fred Weasley"
+      name "Blaise Zabini"
    ]
    node [
       id 29
-      name "Garrick Ollivander"
+      name "Bloody Baron"
    ]
    node [
       id 30
-      name "Gellert Grindelwald"
+      name "Bob Ogden"
    ]
    node [
       id 31
-      name "George Weasley"
+      name "Bogrod"
    ]
    node [
       id 32
-      name "Ginny Weasley"
+      name "Buckbeak"
    ]
    node [
       id 33
-      name "Goyle Sr Mr"
+      name "Cadmus Peverell"
    ]
    node [
       id 34
-      name "Gregory Goyle"
+      name "Cadogan"
    ]
    node [
       id 35
-      name "Griphook"
+      name "Cedric Diggory"
    ]
    node [
       id 36
-      name "Hannah Abbott"
+      name "Charity Burbage"
    ]
    node [
       id 37
-      name "Harry Potter Mr"
+      name "Charlie Weasley"
    ]
    node [
       id 38
-      name "Hedwig"
+      name "Cho Chang"
    ]
    node [
       id 39
-      name "Helena Ravenclaw Grey Lady"
+      name "Colin Creevey"
    ]
    node [
       id 40
-      name "Hermione Granger"
+      name "Cormac McLaggen"
    ]
    node [
       id 41
-      name "Irma Pince"
+      name "Cornelius Fudge"
    ]
    node [
       id 42
-      name "James Potter"
+      name "Crookshanks"
    ]
    node [
       id 43
-      name "Justin Finch-Fletchley"
+      name "Crouch Mr Sr"
    ]
    node [
       id 44
-      name "Katie Bell"
+      name "Cuthbert Binns"
    ]
    node [
       id 45
-      name "Lavender Brown"
+      name "Dawlish"
    ]
    node [
       id 46
-      name "Lee Jordan"
+      name "Dean Thomas"
    ]
    node [
       id 47
-      name "Lily Potter Mrs"
+      name "Dedalus Diggle"
    ]
    node [
       id 48
-      name "Lord Voldemort"
+      name "Demelza Robins"
    ]
    node [
       id 49
-      name "Lucius Malfoy Mr"
+      name "Dennis Creevey"
    ]
    node [
       id 50
-      name "Madam Hooch"
+      name "Dirk Cresswell"
    ]
    node [
       id 51
-      name "Madam Malkin"
+      name "Dobby"
    ]
    node [
       id 52
-      name "Marcus Flint"
+      name "Dolores Jane Umbridge"
    ]
    node [
       id 53
-      name "Marjorie Marge Dursley"
+      name "Draco Malfoy"
    ]
    node [
       id 54
-      name "Millicent Bulstrode"
+      name "Dudley Dursley"
    ]
    node [
       id 55
-      name "Minerva McGonagall"
+      name "Dumbledore Aberforth"
    ]
    node [
       id 56
-      name "Moaning Myrtle"
+      name "Elphias Doge"
    ]
    node [
       id 57
-      name "Molly Weasley Mrs"
+      name "Emmeline Vance"
    ]
    node [
       id 58
-      name "Mrs Norris"
+      name "Ernie Macmillan"
    ]
    node [
       id 59
-      name "Nearly Headless Nick"
+      name "Errol"
    ]
    node [
       id 60
-      name "Neville Longbottom"
+      name "Fang"
    ]
    node [
       id 61
-      name "Newt Scamander"
+      name "Fat Friar"
    ]
    node [
       id 62
-      name "Norbert Norberta"
+      name "Fat Lady"
    ]
    node [
       id 63
-      name "Oliver Wood"
+      name "Fawkes"
    ]
    node [
       id 64
-      name "Padma Patil"
+      name "Fenrir Greyback"
    ]
    node [
       id 65
-      name "Pansy Parkinson"
+      name "Filius Flitwick"
    ]
    node [
       id 66
-      name "Parvati Patil"
+      name "Firenze"
    ]
    node [
       id 67
-      name "Peeves"
+      name "Fleur Delacour"
    ]
    node [
       id 68
-      name "Percy Weasley"
+      name "Florean Fortescue"
    ]
    node [
       id 69
-      name "Petunia Dursley Mrs"
+      name "Fluffy"
    ]
    node [
       id 70
-      name "Phineas Nigellus Black"
+      name "Frank Bryce"
    ]
    node [
       id 71
-      name "Pigwidgeon Pig "
+      name "Frank Longbottom Mr"
    ]
    node [
       id 72
-      name "Pomona Sprout"
+      name "Fred Weasley"
    ]
    node [
       id 73
-      name "Poppy Pomfrey"
+      name "Gabrielle Delacour"
    ]
    node [
       id 74
-      name "Quirinus Quirrell"
+      name "Garrick Ollivander"
    ]
    node [
       id 75
-      name "Ron Weasley"
+      name "Gellert Grindelwald"
    ]
    node [
       id 76
-      name "Ronan"
+      name "George Weasley"
    ]
    node [
       id 77
-      name "Rubeus Hagrid"
+      name "Gilderoy Lockhart"
    ]
    node [
       id 78
-      name "Scabbers"
+      name "Ginny Weasley"
    ]
    node [
       id 79
-      name "Seamus Finnigan"
+      name "Goyle Sr Mr"
    ]
    node [
       id 80
-      name "Severus Snape"
+      name "Graham Montague"
    ]
    node [
       id 81
-      name "Sirius Black"
+      name "Grawp"
    ]
    node [
       id 82
-      name "Susan Bones"
+      name "Gregorovitch"
    ]
    node [
       id 83
-      name "Ted Tonks"
+      name "Gregory Goyle"
    ]
    node [
       id 84
-      name "Terry Boot"
+      name "Griphook"
    ]
    node [
       id 85
-      name "Theodore Nott"
+      name "Griselda Marchbanks"
    ]
    node [
       id 86
-      name "Tom Marvolo Riddle"
+      name "Hannah Abbott"
    ]
    node [
       id 87
-      name "Trevor"
+      name "Harry Potter Mr"
    ]
    node [
       id 88
-      name "Vernon Dursley Mr"
+      name "Hedwig"
    ]
    node [
       id 89
-      name "Vincent Crabbe"
+      name "Helena Ravenclaw Grey Lady"
    ]
    edge [
       id 0

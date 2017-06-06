@@ -66,7 +66,7 @@ def grau_medio(g):
 					'Maximo', grau_max, 'minimo', grau_min, 'media', grau_medio, 'dp', dp_grau_medio))
 
 def betweeness(g):
-	vb_map, eb_map = graph_tool.centrality.betweenness(g, weight=weight)
+	vb_map, eb_map = graph_tool.centrality.betweenness(g)
 	vb_max = max(vb_map.a)
 	vb_min = min(vb_map.a)
 	vb_media, dp_vb = graph_tool.stats.vertex_average(g, vb_map)
@@ -76,7 +76,7 @@ def betweeness(g):
 
 def katz(g):
 	# # Katz
-	katz_map = graph_tool.centrality.katz(g, weight=weight)
+	katz_map = graph_tool.centrality.katz(g)
 	katz_max = max(katz_map.a)
 	katz_min = min(katz_map.a)
 	katz_media, dp_katz = graph_tool.stats.vertex_average(g, katz_map)
@@ -86,7 +86,7 @@ def katz(g):
 
 def pagerank(g):
 	# # Pagerank
-	pagerank_map = graph_tool.centrality.pagerank(g, weight=weight)
+	pagerank_map = graph_tool.centrality.pagerank(g)
 	pagerank_max = max(pagerank_map.a)
 	pagerank_min = min(pagerank_map.a)
 	pagerank_media, dp_pagerank = graph_tool.stats.vertex_average(g, pagerank_map)
@@ -121,16 +121,35 @@ def componentes(g):
 		sizes = hist
 		labels = [str(i) for i in range(len(sizes))]
 
-	# 	plt.figure(figsize=(6,4))
-	# 	plt.title('Tamanho das componentes conexas de '+graphName)
-	# 	plt.gca().pie(sizes, autopct=my_pct(sizes), shadow=True, startangle=90)
-	# 	plt.gca().axis('equal')
-	# 	plt.savefig(graphDir+"/conected-components.png")
+		plt.figure(figsize=(6,4))
+		plt.title('Tamanho das componentes conexas de '+graphName)
+		plt.gca().pie(sizes, autopct=my_pct(sizes), shadow=True, startangle=90)
+		plt.gca().axis('equal')
+		plt.savefig(graphDir+"/conected-components.png")
 
-	# pos = graph_tool.draw.sfdp_layout(g, groups=comp, eweight=weight)
-	# graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-sfdp.png")
-	# pos = graph_tool.draw.arf_layout(g, max_iter=0)
-	# graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-arf.png")
+	pos = graph_tool.draw.sfdp_layout(g, groups=comp)
+	graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-sfdp.png")
+	pos = graph_tool.draw.arf_layout(g, max_iter=0)
+	graph_tool.draw.graph_draw(g, pos=pos, vertex_text=g.vertex_index, output=graphDir+"/graph-draw-arf.png")
+
+def plotWeights(g, graphDir, name):
+	weight = g.edge_properties['weight']
+
+	plt.figure(figsize=(6,4))
+	plt.title("Weight distribution")
+	myX = sorted(weight.a)
+	uniqueX = np.unique(weight.a)
+	myY = []
+	for i, x in enumerate(uniqueX):
+		firstEqual = myX.index(x)
+		myY.append(float(len(myX[firstEqual:]))/len(myX))
+
+	plt.gca().loglog(uniqueX, myY, 'r+')
+	plt.xlabel("Edge Weigth W_e")
+	plt.ylabel("Fraction of edges with weight >= W_e")
+	plt.tight_layout()
+	plt.savefig(graphDir+"/edges-draw-{}.pdf".format(name))
+
 
 def drawGraph(g, graphDir, name):
 	deg = g.degree_property_map("out")
@@ -145,9 +164,9 @@ def drawGraph(g, graphDir, name):
 if __name__ == '__main__':
 	# {Graph path: graph type}
 
-	graphsDir = "../Networks/CharacterNetworks"
-	# graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
-	graphPaths = ["../Networks/CharacterNetworks/HP_allBooks-adj.gml"]
+	graphsDir = "../Networks/cumulativeNetworks"
+	graphPaths = [os.path.join(graphsDir, f) for f in os.listdir(graphsDir)]
+	# graphPaths = ["../Networks/CharacterNetworks/HP_allBooks-adj.gml"]
 
 	for graphPath in graphPaths:
 		graphName = graphPath.split('/')[-1].split('.')[0]
@@ -161,15 +180,26 @@ if __name__ == '__main__':
 		edges = g.get_edges()
 		vertices = g.get_vertices()
 		print ('{:<15}: {:^8}, {:<8}: {:^8}'.format('Arestas', len(edges), 'Vertices', len(vertices)))
+		plotWeights(g, graphDir, graphName)
+		drawGraph(g, graphDir, graphName)
+		grau_medio(g)
+		betweeness(g)
+		katz(g)
+		pagerank(g)
+		clust_local(g)
+		clust_global(g)
+		componentes(g)
 
-		weight = g.edge_properties['weight']
 
-		order_e = []
-		for e in g.edges():
-			order_e.append([g.edge_properties['weight'][e], e.source.index(), e.target.index()])
-		order_e = sorted(order_e)
-		for e in order_e:
-			print e
+
+		# weight = g.edge_properties['weight']
+
+		# order_e = []
+		# for e in g.edges():
+		# 	order_e.append([g.edge_properties['weight'][e], g.vertex_properties['name'][e.source()], g.vertex_properties['name'][e.target()]])
+		# order_e = sorted(order_e)
+		# for e in order_e:
+		# 	print e
 		
 
 

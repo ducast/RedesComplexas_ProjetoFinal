@@ -46,10 +46,10 @@ def createNetwork(g, characters):
 	booksPaths = [os.path.join(booksDir, f) for f in os.listdir(booksDir)]
 	exceptions = ['Mr','Mrs','Sr','Jr']
 	pageCharacters = []
-	for book in booksPaths:
+	for book in booksPaths[:7]:
+		print book
 		with codecs.open(book, 'r', 'utf-8') as bookFile:
 			last_word = False
-			lineCount = 0
 			for line in bookFile:
 				if 'Page |' in line: # New page
 					for i, c1 in enumerate(pageCharacters):
@@ -67,7 +67,6 @@ def createNetwork(g, characters):
 					pageCharacters = [pageCharacters[-1]]
 
 				else:
-					lineCount+=1
 					lineWords = re.compile('\w+-*').findall(line)
 					for word in lineWords:
 						if word[0].isupper():
@@ -118,7 +117,13 @@ def createNetwork(g, characters):
 							last_word = False
 							last_indexes = []
 
-	g.save('../Networks/CharacterNetworks/HP_allBooks-adj.gml')
+	toRemove = []
+	for v in g.vertices():
+		if v.out_degree() == 0:
+			toRemove.append(v)
+	g.remove_vertex(toRemove)
+
+	g.save('../Networks/cumulativeNetworks/HP_books1-2-3-4-5-6-7.gml')
 	return g
 
 
