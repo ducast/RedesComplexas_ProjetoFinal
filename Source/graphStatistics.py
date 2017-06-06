@@ -191,9 +191,13 @@ if __name__ == '__main__':
 		# clust_global(g)
 		# componentes(g)
 
+		edges = []
+		for e in g.edges():
+			edges.append([g.edge_properties['weight'][e], g.vertex_properties['name'][e.source()], g.vertex_properties['name'][e.target()]])
+		edges = sorted(edges)
+		for e in edges:
+			print e
 
-
-		# weight = g.edge_properties['weight']
 
 		# order_e = []
 		# for e in g.edges():
@@ -253,8 +257,8 @@ if __name__ == '__main__':
 		# drawGraph(g, graphDir, 'after')
 
 
-		dist, ends = graph_tool.topology.pseudo_diameter(g)
-		print(dist)
+		# dist, ends = graph_tool.topology.pseudo_diameter(g)
+		# print(dist)
 
 
 
